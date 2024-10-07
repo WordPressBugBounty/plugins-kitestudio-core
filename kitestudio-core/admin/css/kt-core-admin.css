@@ -1,0 +1,566 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.kt-has-hint {
+	position: relative;
+}
+
+.kt-hint {
+	position: absolute;
+	width: 230px;
+	padding: 18px;
+	text-align: left;
+	color: #F5F5F5;
+	background-color: #25252D;
+	border-radius: 5px;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 300ms ease-in;
+}
+
+.kt-hint.show {
+	visibility: visible;
+	opacity: 1;
+}
+
+/*
+ * ─── DASHOBARD SECTION ──────────────────────────────────────────────────────────
+ */
+
+#toplevel_page_pinkmart-dashboard img,
+#toplevel_page_pinkmart-lite-dashboard img,
+#toplevel_page_pinkmart-Child-dashboard img,
+#toplevel_page_teta-dashboard img,
+#toplevel_page_teta-Child-dashboard img,
+#toplevel_page_teta-lite-dashboard img,
+#toplevel_page_teta-lite-Child-dashboard img,
+#toplevel_page_tienda-dashboard img,
+#toplevel_page_tienda-Child-dashboard img,
+#toplevel_page_tienda-lite-dashboard img,
+#toplevel_page_tienda-lite-Child-dashboard img {
+	width: 20px;
+}
+
+.kt-dashboard-page-container {
+	margin: 5px 15px 2px;
+	max-width: 1170px;
+}
+
+.kt-pack-info {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 24px;
+	margin-top: 48px;
+}
+
+.kt-welcome,
+.kt-banner-link {
+	display: flex;
+	flex-direction: column;
+}
+
+.kt-banner-link {
+	width: 100%;
+	transition: box-shadow 0.5s ease;
+}
+
+.kt-link img,
+.kt-banner-link img {
+	width: 100%;
+}
+
+.kt-dashboard-title {
+	display: inline-block;
+	font-size: 26px;
+	line-height: 26px;
+	margin: 40px 0 12px 0;
+	font-weight: 300;
+}
+
+.kt-version {
+	font-size: 16px;
+	line-height: 19px;
+	color: #707070;
+	font-weight: 300;
+}
+
+.kt-go-pro a {
+	padding: 8px 22px;
+	background-color: #FFC400;
+	border-radius: 4px;
+	box-shadow: none;
+	color: #25252D;
+	text-decoration: none;
+	margin-left: 15px;
+	transition: all 0.35s ease;
+}
+
+.kt-go-pro a:hover {
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
+}
+
+.kt-activated {
+	display: none;
+	margin-left: 15px;
+	font-size: 16px;
+	color: #2ED550;
+}
+
+.kt-activated.show {
+	display: inline-block;
+}
+
+.kt-proccessing {
+	color: #3B86FF;
+}
+
+.kt-error {
+	color: #ff5357;
+}
+
+.kt-success {
+	color: #5cf162;
+}
+
+/* tabs section */
+.kt-tabs-section {
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	border-radius: 5px;
+	box-shadow: 0 2px 6px #00000004;
+}
+
+.kt-tabs-container {
+	background-color: #25252D;
+	margin: 0;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 5px 5px 0 0;
+}
+
+.kt-tabs-section>*:not(.kt-tabs-container) {
+	margin: 20px;
+	margin-bottom: 62px;
+}
+
+.kt-tabs-item {
+	width: 100%;
+	text-align: center;
+	margin: 0;
+}
+
+.kt-tabs-item.active {
+	border-bottom: 3px solid #FFC400;
+}
+
+.kt-tabs-item a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	padding: 22px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 6px;
+}
+
+.kt-tabs-item a:hover,
+.kt-tabs-item a.active {
+	color: #ffc400;
+}
+
+/* Dashboard Page */
+.kt-useful-links {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.kt-useful-links a {
+	display: flex;
+}
+
+.kt-useful-links .kt-link {
+	position: relative;
+	flex: 0 0 calc(33% - 10px);
+	margin-bottom: 20px;
+	overflow: hidden;
+	box-shadow: none;
+	transition: box-shadow 0.5s ease;
+}
+
+.kt-useful-links .kt-link span {
+	position: absolute;
+	left: 30px;
+	bottom: 30px;
+	font-size: 24px;
+	line-height: 29px;
+	color: #25252D;
+}
+
+/* Demo import */
+#kt-demos-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.kt-demo-item {
+	flex: 0 0 calc(33% - 10px);
+	margin-bottom: 20px;
+	background-color: #fff;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid #F1F1F3;
+	border-radius: 5px;
+	box-shadow: none;
+	transition: box-shadow 0.5s ease;
+	position: relative;
+}
+
+.kt-banner-link:hover,
+.kt-link:hover,
+.kt-demo-item:hover {
+	box-shadow: 0px 4px 32px 0px #00000020
+}
+
+.kt-demo-item:nth-child(3n) {
+	margin-left: 10px;
+}
+
+.kt-demo-item:nth-child(3n+1) {
+	margin-right: 10px;
+}
+
+.kt-demo-item:nth-child(3n-1) {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.kt-demo-item label {
+	cursor: default;
+}
+
+.kt-demo-item img {
+	width: 100%;
+	height: auto;
+}
+
+.kt-demo-item.kt-lazy img {
+	background-color: #00000015;
+}
+
+.kt-demo-item .input-hidden,
+.kt-template-item .input-hidden {
+	display: none;
+}
+
+.kt-demo-item .kt-demo-name {
+	line-height: 32px;
+	font-weight: 600;
+}
+
+.kt-demo-item .kt-demo-buttons,
+.kt-template-item .kt-template-buttons {
+	margin-top: 6px;
+	margin-bottom: 6px;
+	display: flex;
+}
+
+.kt-template-item .kt-template-buttons {
+	justify-content: flex-end;
+}
+
+.kt-demo-item a,
+.kt-fetch-demos,
+.kt-template-item a,
+.kt-apply-option .kt-template-buttons input {
+	padding: 8px 25px;
+	text-decoration: none;
+	border: 2px solid;
+	border-radius: 2px;
+	box-shadow: none;
+	transition: all 0.35s ease;
+}
+
+.kt-demo-item .kt-demo-buttons a:hover,
+.kt-template-item .kt-template-buttons a:hover {
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .15)
+}
+
+.kt-demo-item .kt-import,
+.kt-fetch-demos,
+.kt-template-item .kt-template-buttons .kt-import {
+	border-color: #3B86FF;
+	background-color: #3B86FF;
+	color: #fff;
+	margin-right: 5px;
+}
+
+.kt-fetch-demos:hover {
+	color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .15)
+}
+
+.kt-demo-item .kt-preview {
+	border-color: #25252D;
+	color: #25252D;
+}
+
+.kt-demo-item .kt-preview:hover {
+	border-color: #25252D;
+	background-color: #25252D;
+	color: #fff;
+}
+
+.kt-pro-badge {
+	background-color: #FF4F52;
+	border-radius: 3px;
+	padding: 4px 8px;
+	color: #fff;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.kt-demo-item .kt-pro-badge {
+	position: absolute;
+	top: 18px;
+	left: 18px;
+}
+
+.kt-pro-badge .icon {
+	font-size: 18px;
+}
+
+/* plugins page */
+.kt-tabs-section>.kt-plugins-page,
+.kt-tabs-section>.kt-support-page {
+	width: auto;
+	margin: 42px 32px 62px 62px;
+}
+
+.kt-plugins-page-title {
+	display: inline-block;
+	font-size: 28px;
+	color: #43425D;
+	line-height: 40px;
+	margin-bottom: 25px;
+}
+
+.kt-plugins-page-desc {
+	display: inline-block;
+	font-size: 14px;
+	line-height: 20px;
+	color: #4D4F5C;
+}
+
+.kt-plugins-form li:not(.kt-plugins-title) {
+	font-size: 14px;
+	padding: 20px 30px 20px 25px;
+	background-color: white;
+	margin: 0;
+	border-bottom: 1px solid #f5f5f5;
+}
+
+.kt-plugins-form li .spinner {
+	float: none;
+}
+
+.kt-plugins-form .kt-plugins-title {
+	font-size: 14px;
+	font-weight: 600;
+	list-style: disc;
+	margin: 20px 30px 20px 25px;
+}
+
+.kt-plugins-form li input[type="checkbox"] {
+	background: #FFFFFF;
+	width: 23px;
+	height: 23px;
+	border-radius: 5px;
+	margin-right: 12px;
+	box-shadow: unset;
+	border: 2px solid #3B86FF;
+	opacity: 1;
+}
+
+body.rtl .kt-plugins-form li input[type="checkbox"] {
+	margin-left: 12px;
+}
+
+.kt-plugins-form li input[type="checkbox"]:checked:before {
+	margin: -1px 0 0 -2px !important;
+	content: url(data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2020%2020%27%3E%3Cpath%20d%3D%27M14.83%204.89l1.34.94-5.81%208.38H9.02L5.78%209.67l1.34-1.25%202.57%202.4z%27%20fill%3D%27%231e8cbe%27%2F%3E%3C%2Fsvg%3E);
+	height: 1.3125rem;
+	width: 1.3125rem;
+	opacity: 1 !important;
+	color: #FFFFFF;
+}
+
+.kt-plugins-form li span {
+	float: right;
+}
+
+body.rtl .kt-plugins-form li span {
+	float: left;
+}
+
+.kt-install-plugins {
+	background-color: #3B86FF;
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 17px;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 4px;
+	box-shadow: none;
+	cursor: pointer;
+	transition: all 0.35s ease-in;
+}
+
+.kt-install-plugins:hover {
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)
+}
+
+/* Templates Page */
+.kt-template-library-page li {
+	border: 3px solid transparent;
+	border-radius: 5px;
+	margin-bottom: 16px;
+	transition: all 0.3s ease;
+}
+
+.kt-template-library-page li.kt-template-item:hover {
+	border-color: #5956E9;
+}
+
+.kt-template-library-page li img {
+	width: 100%;
+}
+
+.kt-template-library-page li .kt-item-head,
+.kt-template-library-page li .kt-item-footer {
+	background-color: #F9FAFB;
+	padding: 10px 24px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.kt-template-library-page li .kt-template-buttons {
+	justify-content: flex-start;
+}
+
+.kt-template-library-page li .kt-template-buttons a,
+.kt-apply-option .kt-template-buttons input {
+	color: #fff;
+	border-color: #5956E9 !important;
+	background-color: #5956E9 !important;
+	cursor: pointer;
+}
+
+.kt-template-library-page li .kt-template-buttons .kt-import.disable {
+	background-color: #858585 !important;
+	border-color: #858585 !important;
+	cursor: default;
+}
+
+.kt-template-tabs {
+	display: flex;
+	margin-bottom: 20px;
+	justify-content: space-around;
+	background-color: #29293008;
+	border-radius: 25px;
+}
+
+.kt-template-tabs li {
+	margin-right: 20px;
+	margin-bottom: 0 !important;
+	font-size: 16px;
+	font-weight: 400;
+	cursor: pointer;
+	padding-bottom: 2px;
+	text-align: center;
+	flex: 1;
+	padding: 16px 0;
+	border-radius: 25px;
+	position: relative;
+}
+
+.kt-template-tabs li.active {
+	background-color: #292930;
+	color: #fff;
+}
+
+.kt-template-tabs li .kt-template-number {
+	margin-left: 6px;
+	font-size: 12px;
+	background-color: #ffc400;
+	padding: 0px 4px;
+	border-radius: 5px;
+	color: #fff;
+	position: absolute;
+	top: 6px;
+}
+
+form#kt-template-import>ul:not(.kt-template-tabs, .active) {
+	display: none;
+}
+
+/* Supports page */
+.kt-supports-item {
+	list-style: disc;
+	margin-left: 30px;
+}
+
+@media (max-width: 768px) {
+	.kt-pack-info img {
+		width: 82px;
+		height: 82px;
+	}
+
+	.kt-dashboard-title {
+		font-size: 20px;
+		margin-top: 10px;
+	}
+
+	.kt-useful-links .kt-link,
+	.kt-demo-item {
+		flex: 0 0 100%;
+	}
+
+	.kt-tabs-section>.kt-plugins-page,
+	.kt-tabs-section>.kt-support-page {
+		width: 100%;
+		margin: 20px 10px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1140px) {
+
+	.kt-useful-links .kt-link,
+	.kt-demo-item {
+		flex: 0 0 calc(50% - 10px);
+		margin: 5px !important;
+	}
+}
+
+@media (max-width: 1140px) {
+	.kt-demo-item .kt-demo-buttons {
+		flex-wrap: wrap;
+		text-align: center;
+	}
+
+	.kt-demo-item .kt-import {
+		margin-right: 5px;
+		flex: 1;
+	}
+
+	.kt-demo-item .kt-preview {
+		flex: 1;
+	}
+}
