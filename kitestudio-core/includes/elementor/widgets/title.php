@@ -205,7 +205,9 @@ class Kite_Custom_Title_Widget extends \Elementor\Widget_Base {
 			array(
 				'name'      => 'bg_title_typography',
 				'label'     => esc_html__( 'Background Title Typography', 'kitestudio-core' ),
-				'scheme'    => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
+				'global'   => [
+					'default' => \Elementor\Core\Kits\Documents\Tabs\Global_Typography::TYPOGRAPHY_PRIMARY ?? '',
+				],
 				'selector'  => '{{WRAPPER}} span.textbackground',
 				'condition' => array(
 					'title_background_style' => 'textbackground',

@@ -457,7 +457,9 @@ class Kite_Banner_Widget extends \Elementor\Widget_Base {
 			array(
 				'name'      => 'link_typography',
 				'label'     => __( 'Link Typography', 'kitestudio-core' ),
-				'scheme'    => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
+				'global'   => [
+					'default' => \Elementor\Core\Kits\Documents\Tabs\Global_Typography::TYPOGRAPHY_PRIMARY ?? '',
+				],
 				'selector'  => '{{WRAPPER}} a',
 				'condition' => array(
 					'button_style' => 'link',

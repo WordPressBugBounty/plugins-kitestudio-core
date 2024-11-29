@@ -454,7 +454,9 @@ class Kite_Product_Categories_Widget extends \Elementor\Widget_Base {
 			array(
 				'name'      => 'description_typography',
 				'label'     => esc_html__( 'Description Typography', 'kitestudio-core' ),
-				'scheme'    => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
+				'global'   => [
+					'default' => \Elementor\Core\Kits\Documents\Tabs\Global_Typography::TYPOGRAPHY_PRIMARY ?? '',
+				],
 				'selector'  => '{{WRAPPER}} .woocommerce div.products div.product.product-category h3 span',
 				'condition' => array(
 					'description' => 'enable',

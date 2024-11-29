@@ -9,15 +9,15 @@
  * @wordpress-plugin
  * Plugin Name:       KiteStudio Core
  * Description:       kitestudio core plugin that adds shortcodes, widgets, post-types, etc. to kitestudio themes
- * Version:           2.8.3
+ * Version:           2.9.0
  * Author:            KiteStudio
  * Author URI:        http://kitestudio.co/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       kitestudio-core
  * Domain Path:       /languages
- * WC tested up to:   9.0.2
- * Elementor tested up to: 3.22.3
+ * WC tested up to:   9.4.2
+ * Elementor tested up to: 3.25.10
  */
 
 // If this file is called directly, abort.
@@ -25,7 +25,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-define( 'KITE_CORE_VER', '2.8.3' );
+define( 'KITE_CORE_VER', '2.9.0' );
 define( 'KITE_CORE_DIR', plugin_dir_path( __FILE__ ) );
 define( 'KITE_CORE_URL', plugin_dir_url( __FILE__ ) );
 

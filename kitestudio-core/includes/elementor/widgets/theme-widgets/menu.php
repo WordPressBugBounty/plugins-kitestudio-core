@@ -14,7 +14,7 @@ use Kite_Nav_Walker;
 use Elementor\Widget_Base;
 use Elementor\Controls_Manager;
 use Elementor\Group_Control_Typography;
-use Elementor\Core\Schemes\Typography;
+use Elementor\Core\Kits\Documents\Tabs\Global_Typography;
 use Elementor\Group_Control_Border;
 use Elementor\Group_Control_Background;
 use Elementor\Group_Control_Box_Shadow;
@@ -397,7 +397,9 @@ class Menu extends Widget_Base {
 			array(
 				'name'     => 'menu_item_typography',
 				'label'    => __( 'Typography', 'kitestudio-core' ),
-				'scheme'   => Typography::TYPOGRAPHY_1,
+				'global'   => [
+					'default' => Global_Typography::TYPOGRAPHY_PRIMARY ?? '',
+				],
 				'selector' => '{{WRAPPER}} nav.navigation ul li a',
 			)
 		);

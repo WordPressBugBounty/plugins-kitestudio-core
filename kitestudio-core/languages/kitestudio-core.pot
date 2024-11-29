@@ -2,31 +2,35 @@
 # This file is distributed under the GPL-2.0+.
 msgid ""
 msgstr ""
-"Project-Id-Version: KiteStudio Core 2.8.3\n"
+"Project-Id-Version: KiteStudio Core 2.9.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/kitestudio-core\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-06-30T08:14:19+00:00\n"
+"POT-Creation-Date: 2024-11-29T06:14:25+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.9.0\n"
+"X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: kitestudio-core\n"
 
 #. Plugin Name of the plugin
+#: kitestudio-core.php
 msgid "KiteStudio Core"
 msgstr ""
 
 #. Description of the plugin
+#: kitestudio-core.php
 msgid "kitestudio core plugin that adds shortcodes, widgets, post-types, etc. to kitestudio themes"
 msgstr ""
 
 #. Author of the plugin
+#: kitestudio-core.php
 msgid "KiteStudio"
 msgstr ""
 
 #. Author URI of the plugin
+#: kitestudio-core.php
 msgid "http://kitestudio.co/"
 msgstr ""
 
@@ -299,16 +303,16 @@ msgid "Fetch Templates List"
 msgstr ""
 
 #: build/kitestudio-core/includes/classes/class-kt-core-dashboard.php:633
-#: build/kitestudio-core/includes/classes/class-kt-core-updater.php:250
+#: build/kitestudio-core/includes/classes/class-kt-core-updater.php:252
 #: includes/classes/class-kt-core-dashboard.php:633
-#: includes/classes/class-kt-core-updater.php:250
+#: includes/classes/class-kt-core-updater.php:252
 msgid "Help and Support"
 msgstr ""
 
 #: build/kitestudio-core/includes/classes/class-kt-core-dashboard.php:636
-#: build/kitestudio-core/includes/classes/class-kt-core-updater.php:253
+#: build/kitestudio-core/includes/classes/class-kt-core-updater.php:255
 #: includes/classes/class-kt-core-dashboard.php:636
-#: includes/classes/class-kt-core-updater.php:253
+#: includes/classes/class-kt-core-updater.php:255
 msgid ""
 "This theme comes with 6 months item support from purchase date (with the option to extend this period).\r\n"
 "                This license allows you to use this theme on a single website. Please purchase an additional license to\r\n"
@@ -321,30 +325,30 @@ msgid "For item support, please contact us via email by sharing your purchase co
 msgstr ""
 
 #: build/kitestudio-core/includes/classes/class-kt-core-dashboard.php:646
-#: build/kitestudio-core/includes/classes/class-kt-core-updater.php:263
+#: build/kitestudio-core/includes/classes/class-kt-core-updater.php:265
 #: includes/classes/class-kt-core-dashboard.php:646
-#: includes/classes/class-kt-core-updater.php:263
+#: includes/classes/class-kt-core-updater.php:265
 msgid "Availability of the author to answer questions"
 msgstr ""
 
 #: build/kitestudio-core/includes/classes/class-kt-core-dashboard.php:647
-#: build/kitestudio-core/includes/classes/class-kt-core-updater.php:264
+#: build/kitestudio-core/includes/classes/class-kt-core-updater.php:266
 #: includes/classes/class-kt-core-dashboard.php:647
-#: includes/classes/class-kt-core-updater.php:264
+#: includes/classes/class-kt-core-updater.php:266
 msgid "Answering technical questions about item features"
 msgstr ""
 
 #: build/kitestudio-core/includes/classes/class-kt-core-dashboard.php:648
-#: build/kitestudio-core/includes/classes/class-kt-core-updater.php:265
+#: build/kitestudio-core/includes/classes/class-kt-core-updater.php:267
 #: includes/classes/class-kt-core-dashboard.php:648
-#: includes/classes/class-kt-core-updater.php:265
+#: includes/classes/class-kt-core-updater.php:267
 msgid "Assistance with reported bugs and issues"
 msgstr ""
 
 #: build/kitestudio-core/includes/classes/class-kt-core-dashboard.php:649
-#: build/kitestudio-core/includes/classes/class-kt-core-updater.php:266
+#: build/kitestudio-core/includes/classes/class-kt-core-updater.php:268
 #: includes/classes/class-kt-core-dashboard.php:649
-#: includes/classes/class-kt-core-updater.php:266
+#: includes/classes/class-kt-core-updater.php:268
 msgid "Help with bundled 3rd party plugins"
 msgstr ""
 
@@ -420,13 +424,13 @@ msgstr ""
 msgid "“Selected image has been added to your media library.”"
 msgstr ""
 
-#: build/kitestudio-core/includes/classes/class-kt-core-updater.php:261
-#: includes/classes/class-kt-core-updater.php:261
+#: build/kitestudio-core/includes/classes/class-kt-core-updater.php:263
+#: includes/classes/class-kt-core-updater.php:263
 msgid "Item Support can be accessed from %s and includes: "
 msgstr ""
 
-#: build/kitestudio-core/includes/classes/class-kt-core-updater.php:268
-#: includes/classes/class-kt-core-updater.php:268
+#: build/kitestudio-core/includes/classes/class-kt-core-updater.php:270
+#: includes/classes/class-kt-core-updater.php:270
 msgid "More details about item support can be found in the ThemeForest %s."
 msgstr ""
 
@@ -1043,8 +1047,8 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:191
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:237
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:314
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:507
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:861
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:511
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:865
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/compare.php:152
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:146
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:250
@@ -1068,8 +1072,8 @@ msgstr ""
 #: includes/elementor/widgets/theme-widgets/cart.php:191
 #: includes/elementor/widgets/theme-widgets/categories.php:237
 #: includes/elementor/widgets/theme-widgets/categories.php:314
-#: includes/elementor/widgets/theme-widgets/categories.php:507
-#: includes/elementor/widgets/theme-widgets/categories.php:861
+#: includes/elementor/widgets/theme-widgets/categories.php:511
+#: includes/elementor/widgets/theme-widgets/categories.php:865
 #: includes/elementor/widgets/theme-widgets/compare.php:152
 #: includes/elementor/widgets/theme-widgets/menu.php:146
 #: includes/elementor/widgets/theme-widgets/menu.php:250
@@ -1097,7 +1101,7 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/account.php:179
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:195
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:318
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:865
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:869
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/compare.php:156
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:150
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/newsletter.php:156
@@ -1121,7 +1125,7 @@ msgstr ""
 #: includes/elementor/widgets/theme-widgets/account.php:179
 #: includes/elementor/widgets/theme-widgets/cart.php:195
 #: includes/elementor/widgets/theme-widgets/categories.php:318
-#: includes/elementor/widgets/theme-widgets/categories.php:865
+#: includes/elementor/widgets/theme-widgets/categories.php:869
 #: includes/elementor/widgets/theme-widgets/compare.php:156
 #: includes/elementor/widgets/theme-widgets/menu.php:150
 #: includes/elementor/widgets/theme-widgets/newsletter.php:156
@@ -1146,8 +1150,8 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:199
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:241
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:322
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:508
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:869
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:512
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:873
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/compare.php:160
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:154
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:254
@@ -1170,8 +1174,8 @@ msgstr ""
 #: includes/elementor/widgets/theme-widgets/cart.php:199
 #: includes/elementor/widgets/theme-widgets/categories.php:241
 #: includes/elementor/widgets/theme-widgets/categories.php:322
-#: includes/elementor/widgets/theme-widgets/categories.php:508
-#: includes/elementor/widgets/theme-widgets/categories.php:869
+#: includes/elementor/widgets/theme-widgets/categories.php:512
+#: includes/elementor/widgets/theme-widgets/categories.php:873
 #: includes/elementor/widgets/theme-widgets/compare.php:160
 #: includes/elementor/widgets/theme-widgets/menu.php:154
 #: includes/elementor/widgets/theme-widgets/menu.php:254
@@ -1221,7 +1225,7 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/account.php:171
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:187
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:310
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:857
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:861
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/compare.php:148
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/newsletter.php:148
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:200
@@ -1237,7 +1241,7 @@ msgstr ""
 #: includes/elementor/widgets/theme-widgets/account.php:171
 #: includes/elementor/widgets/theme-widgets/cart.php:187
 #: includes/elementor/widgets/theme-widgets/categories.php:310
-#: includes/elementor/widgets/theme-widgets/categories.php:857
+#: includes/elementor/widgets/theme-widgets/categories.php:861
 #: includes/elementor/widgets/theme-widgets/compare.php:148
 #: includes/elementor/widgets/theme-widgets/newsletter.php:148
 #: includes/elementor/widgets/theme-widgets/select.php:200
@@ -1479,7 +1483,7 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/banner.php:262
 #: build/kitestudio-core/includes/elementor/widgets/banner.php:352
 #: build/kitestudio-core/includes/elementor/widgets/banner.php:377
-#: build/kitestudio-core/includes/elementor/widgets/banner.php:472
+#: build/kitestudio-core/includes/elementor/widgets/banner.php:474
 #: build/kitestudio-core/includes/elementor/widgets/blog.php:392
 #: build/kitestudio-core/includes/elementor/widgets/embed-video.php:162
 #: build/kitestudio-core/includes/elementor/widgets/embed-video.php:177
@@ -1502,8 +1506,8 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/product-categories.php:330
 #: build/kitestudio-core/includes/elementor/widgets/product-categories.php:435
 #: build/kitestudio-core/includes/elementor/widgets/product-categories.php:446
-#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:506
-#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:535
+#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:508
+#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:537
 #: build/kitestudio-core/includes/elementor/widgets/products-by-attribute.php:479
 #: build/kitestudio-core/includes/elementor/widgets/products-by-attribute.php:717
 #: build/kitestudio-core/includes/elementor/widgets/products-by-attribute.php:758
@@ -1534,7 +1538,7 @@ msgstr ""
 #: includes/elementor/widgets/banner.php:262
 #: includes/elementor/widgets/banner.php:352
 #: includes/elementor/widgets/banner.php:377
-#: includes/elementor/widgets/banner.php:472
+#: includes/elementor/widgets/banner.php:474
 #: includes/elementor/widgets/blog.php:392
 #: includes/elementor/widgets/embed-video.php:162
 #: includes/elementor/widgets/embed-video.php:177
@@ -1557,8 +1561,8 @@ msgstr ""
 #: includes/elementor/widgets/product-categories.php:330
 #: includes/elementor/widgets/product-categories.php:435
 #: includes/elementor/widgets/product-categories.php:446
-#: includes/elementor/widgets/product-categories.php:506
-#: includes/elementor/widgets/product-categories.php:535
+#: includes/elementor/widgets/product-categories.php:508
+#: includes/elementor/widgets/product-categories.php:537
 #: includes/elementor/widgets/products-by-attribute.php:479
 #: includes/elementor/widgets/products-by-attribute.php:717
 #: includes/elementor/widgets/products-by-attribute.php:758
@@ -1592,7 +1596,7 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/banner.php:263
 #: build/kitestudio-core/includes/elementor/widgets/banner.php:353
 #: build/kitestudio-core/includes/elementor/widgets/banner.php:378
-#: build/kitestudio-core/includes/elementor/widgets/banner.php:473
+#: build/kitestudio-core/includes/elementor/widgets/banner.php:475
 #: build/kitestudio-core/includes/elementor/widgets/blog.php:393
 #: build/kitestudio-core/includes/elementor/widgets/embed-video.php:163
 #: build/kitestudio-core/includes/elementor/widgets/embed-video.php:178
@@ -1615,8 +1619,8 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/product-categories.php:331
 #: build/kitestudio-core/includes/elementor/widgets/product-categories.php:436
 #: build/kitestudio-core/includes/elementor/widgets/product-categories.php:447
-#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:507
-#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:536
+#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:509
+#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:538
 #: build/kitestudio-core/includes/elementor/widgets/products-by-attribute.php:480
 #: build/kitestudio-core/includes/elementor/widgets/products-by-attribute.php:718
 #: build/kitestudio-core/includes/elementor/widgets/products-by-attribute.php:759
@@ -1647,7 +1651,7 @@ msgstr ""
 #: includes/elementor/widgets/banner.php:263
 #: includes/elementor/widgets/banner.php:353
 #: includes/elementor/widgets/banner.php:378
-#: includes/elementor/widgets/banner.php:473
+#: includes/elementor/widgets/banner.php:475
 #: includes/elementor/widgets/blog.php:393
 #: includes/elementor/widgets/embed-video.php:163
 #: includes/elementor/widgets/embed-video.php:178
@@ -1670,8 +1674,8 @@ msgstr ""
 #: includes/elementor/widgets/product-categories.php:331
 #: includes/elementor/widgets/product-categories.php:436
 #: includes/elementor/widgets/product-categories.php:447
-#: includes/elementor/widgets/product-categories.php:507
-#: includes/elementor/widgets/product-categories.php:536
+#: includes/elementor/widgets/product-categories.php:509
+#: includes/elementor/widgets/product-categories.php:538
 #: includes/elementor/widgets/products-by-attribute.php:480
 #: includes/elementor/widgets/products-by-attribute.php:718
 #: includes/elementor/widgets/products-by-attribute.php:759
@@ -1712,7 +1716,7 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:149
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:209
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:124
-#: build/kitestudio-core/includes/elementor/widgets/title.php:230
+#: build/kitestudio-core/includes/elementor/widgets/title.php:232
 #: includes/elementor/widgets/ajax-woocommerce-products.php:371
 #: includes/elementor/widgets/button.php:144
 #: includes/elementor/widgets/icon-box-creative.php:137
@@ -1727,7 +1731,7 @@ msgstr ""
 #: includes/elementor/widgets/theme-widgets/search.php:149
 #: includes/elementor/widgets/theme-widgets/search.php:209
 #: includes/elementor/widgets/theme-widgets/select.php:124
-#: includes/elementor/widgets/title.php:230
+#: includes/elementor/widgets/title.php:232
 msgid "Icon"
 msgstr ""
 
@@ -2309,8 +2313,8 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/product-categories.php:179
 #: build/kitestudio-core/includes/elementor/widgets/product-categories.php:233
 #: build/kitestudio-core/includes/elementor/widgets/product-categories.php:316
-#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:469
-#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:484
+#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:471
+#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:486
 #: build/kitestudio-core/includes/elementor/widgets/products-by-attribute.php:304
 #: build/kitestudio-core/includes/elementor/widgets/products-by-attribute.php:596
 #: build/kitestudio-core/includes/elementor/widgets/products-by-attribute.php:610
@@ -2371,8 +2375,8 @@ msgstr ""
 #: includes/elementor/widgets/product-categories.php:179
 #: includes/elementor/widgets/product-categories.php:233
 #: includes/elementor/widgets/product-categories.php:316
-#: includes/elementor/widgets/product-categories.php:469
-#: includes/elementor/widgets/product-categories.php:484
+#: includes/elementor/widgets/product-categories.php:471
+#: includes/elementor/widgets/product-categories.php:486
 #: includes/elementor/widgets/products-by-attribute.php:304
 #: includes/elementor/widgets/products-by-attribute.php:596
 #: includes/elementor/widgets/products-by-attribute.php:610
@@ -2436,8 +2440,8 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/product-categories.php:180
 #: build/kitestudio-core/includes/elementor/widgets/product-categories.php:234
 #: build/kitestudio-core/includes/elementor/widgets/product-categories.php:317
-#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:470
-#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:485
+#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:472
+#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:487
 #: build/kitestudio-core/includes/elementor/widgets/products-by-attribute.php:305
 #: build/kitestudio-core/includes/elementor/widgets/products-by-attribute.php:597
 #: build/kitestudio-core/includes/elementor/widgets/products-by-attribute.php:611
@@ -2498,8 +2502,8 @@ msgstr ""
 #: includes/elementor/widgets/product-categories.php:180
 #: includes/elementor/widgets/product-categories.php:234
 #: includes/elementor/widgets/product-categories.php:317
-#: includes/elementor/widgets/product-categories.php:470
-#: includes/elementor/widgets/product-categories.php:485
+#: includes/elementor/widgets/product-categories.php:472
+#: includes/elementor/widgets/product-categories.php:487
 #: includes/elementor/widgets/products-by-attribute.php:305
 #: includes/elementor/widgets/products-by-attribute.php:597
 #: includes/elementor/widgets/products-by-attribute.php:611
@@ -2903,21 +2907,21 @@ msgid "Cart Button Style"
 msgstr ""
 
 #: build/kitestudio-core/includes/elementor/widgets/ajax-woocommerce-products.php:807
-#: build/kitestudio-core/includes/elementor/widgets/banner.php:484
+#: build/kitestudio-core/includes/elementor/widgets/banner.php:486
 #: build/kitestudio-core/includes/elementor/widgets/button.php:189
 #: build/kitestudio-core/includes/elementor/widgets/mailchimp.php:749
 #: build/kitestudio-core/includes/elementor/widgets/products-by-attribute.php:541
 #: build/kitestudio-core/includes/elementor/widgets/single-product.php:179
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:506
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:510
 #: build/kitestudio-core/includes/elementor/widgets/woocommerce-handpicked-products.php:510
 #: build/kitestudio-core/includes/elementor/widgets/woocommerce-products.php:573
 #: includes/elementor/widgets/ajax-woocommerce-products.php:807
-#: includes/elementor/widgets/banner.php:484
+#: includes/elementor/widgets/banner.php:486
 #: includes/elementor/widgets/button.php:189
 #: includes/elementor/widgets/mailchimp.php:749
 #: includes/elementor/widgets/products-by-attribute.php:541
 #: includes/elementor/widgets/single-product.php:179
-#: includes/elementor/widgets/theme-widgets/categories.php:506
+#: includes/elementor/widgets/theme-widgets/categories.php:510
 #: includes/elementor/widgets/woocommerce-handpicked-products.php:510
 #: includes/elementor/widgets/woocommerce-products.php:573
 msgid "Default"
@@ -3158,7 +3162,7 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/image-carousel.php:258
 #: build/kitestudio-core/includes/elementor/widgets/instagram-feed.php:349
 #: build/kitestudio-core/includes/elementor/widgets/pie-chart.php:192
-#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:515
+#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:517
 #: build/kitestudio-core/includes/elementor/widgets/products-by-attribute.php:738
 #: build/kitestudio-core/includes/elementor/widgets/single-product.php:425
 #: build/kitestudio-core/includes/elementor/widgets/woocommerce-handpicked-products.php:707
@@ -3169,7 +3173,7 @@ msgstr ""
 #: includes/elementor/widgets/image-carousel.php:258
 #: includes/elementor/widgets/instagram-feed.php:349
 #: includes/elementor/widgets/pie-chart.php:192
-#: includes/elementor/widgets/product-categories.php:515
+#: includes/elementor/widgets/product-categories.php:517
 #: includes/elementor/widgets/products-by-attribute.php:738
 #: includes/elementor/widgets/single-product.php:425
 #: includes/elementor/widgets/woocommerce-handpicked-products.php:707
@@ -3182,7 +3186,7 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/counter-box.php:167
 #: build/kitestudio-core/includes/elementor/widgets/instagram-feed.php:353
 #: build/kitestudio-core/includes/elementor/widgets/pie-chart.php:196
-#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:519
+#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:521
 #: build/kitestudio-core/includes/elementor/widgets/products-by-attribute.php:742
 #: build/kitestudio-core/includes/elementor/widgets/woocommerce-handpicked-products.php:711
 #: build/kitestudio-core/includes/elementor/widgets/woocommerce-products.php:772
@@ -3191,7 +3195,7 @@ msgstr ""
 #: includes/elementor/widgets/counter-box.php:167
 #: includes/elementor/widgets/instagram-feed.php:353
 #: includes/elementor/widgets/pie-chart.php:196
-#: includes/elementor/widgets/product-categories.php:519
+#: includes/elementor/widgets/product-categories.php:521
 #: includes/elementor/widgets/products-by-attribute.php:742
 #: includes/elementor/widgets/woocommerce-handpicked-products.php:711
 #: includes/elementor/widgets/woocommerce-products.php:772
@@ -3204,7 +3208,7 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/image-carousel.php:261
 #: build/kitestudio-core/includes/elementor/widgets/instagram-feed.php:354
 #: build/kitestudio-core/includes/elementor/widgets/pie-chart.php:197
-#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:520
+#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:522
 #: build/kitestudio-core/includes/elementor/widgets/products-by-attribute.php:743
 #: build/kitestudio-core/includes/elementor/widgets/single-product.php:429
 #: build/kitestudio-core/includes/elementor/widgets/woocommerce-handpicked-products.php:712
@@ -3215,7 +3219,7 @@ msgstr ""
 #: includes/elementor/widgets/image-carousel.php:261
 #: includes/elementor/widgets/instagram-feed.php:354
 #: includes/elementor/widgets/pie-chart.php:197
-#: includes/elementor/widgets/product-categories.php:520
+#: includes/elementor/widgets/product-categories.php:522
 #: includes/elementor/widgets/products-by-attribute.php:743
 #: includes/elementor/widgets/single-product.php:429
 #: includes/elementor/widgets/woocommerce-handpicked-products.php:712
@@ -3229,7 +3233,7 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/image-carousel.php:262
 #: build/kitestudio-core/includes/elementor/widgets/instagram-feed.php:355
 #: build/kitestudio-core/includes/elementor/widgets/pie-chart.php:198
-#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:521
+#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:523
 #: build/kitestudio-core/includes/elementor/widgets/products-by-attribute.php:744
 #: build/kitestudio-core/includes/elementor/widgets/single-product.php:430
 #: build/kitestudio-core/includes/elementor/widgets/woocommerce-handpicked-products.php:713
@@ -3240,7 +3244,7 @@ msgstr ""
 #: includes/elementor/widgets/image-carousel.php:262
 #: includes/elementor/widgets/instagram-feed.php:355
 #: includes/elementor/widgets/pie-chart.php:198
-#: includes/elementor/widgets/product-categories.php:521
+#: includes/elementor/widgets/product-categories.php:523
 #: includes/elementor/widgets/products-by-attribute.php:744
 #: includes/elementor/widgets/single-product.php:430
 #: includes/elementor/widgets/woocommerce-handpicked-products.php:713
@@ -3254,7 +3258,7 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/image-carousel.php:263
 #: build/kitestudio-core/includes/elementor/widgets/instagram-feed.php:356
 #: build/kitestudio-core/includes/elementor/widgets/pie-chart.php:199
-#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:522
+#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:524
 #: build/kitestudio-core/includes/elementor/widgets/products-by-attribute.php:745
 #: build/kitestudio-core/includes/elementor/widgets/single-product.php:431
 #: build/kitestudio-core/includes/elementor/widgets/woocommerce-handpicked-products.php:714
@@ -3265,7 +3269,7 @@ msgstr ""
 #: includes/elementor/widgets/image-carousel.php:263
 #: includes/elementor/widgets/instagram-feed.php:356
 #: includes/elementor/widgets/pie-chart.php:199
-#: includes/elementor/widgets/product-categories.php:522
+#: includes/elementor/widgets/product-categories.php:524
 #: includes/elementor/widgets/products-by-attribute.php:745
 #: includes/elementor/widgets/single-product.php:431
 #: includes/elementor/widgets/woocommerce-handpicked-products.php:714
@@ -3279,7 +3283,7 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/image-carousel.php:264
 #: build/kitestudio-core/includes/elementor/widgets/instagram-feed.php:357
 #: build/kitestudio-core/includes/elementor/widgets/pie-chart.php:200
-#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:523
+#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:525
 #: build/kitestudio-core/includes/elementor/widgets/products-by-attribute.php:746
 #: build/kitestudio-core/includes/elementor/widgets/single-product.php:432
 #: build/kitestudio-core/includes/elementor/widgets/woocommerce-handpicked-products.php:715
@@ -3290,7 +3294,7 @@ msgstr ""
 #: includes/elementor/widgets/image-carousel.php:264
 #: includes/elementor/widgets/instagram-feed.php:357
 #: includes/elementor/widgets/pie-chart.php:200
-#: includes/elementor/widgets/product-categories.php:523
+#: includes/elementor/widgets/product-categories.php:525
 #: includes/elementor/widgets/products-by-attribute.php:746
 #: includes/elementor/widgets/single-product.php:432
 #: includes/elementor/widgets/woocommerce-handpicked-products.php:715
@@ -3302,7 +3306,7 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/blog.php:381
 #: build/kitestudio-core/includes/elementor/widgets/image-carousel.php:265
 #: build/kitestudio-core/includes/elementor/widgets/instagram-feed.php:358
-#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:524
+#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:526
 #: build/kitestudio-core/includes/elementor/widgets/products-by-attribute.php:747
 #: build/kitestudio-core/includes/elementor/widgets/single-product.php:433
 #: build/kitestudio-core/includes/elementor/widgets/woocommerce-handpicked-products.php:716
@@ -3311,7 +3315,7 @@ msgstr ""
 #: includes/elementor/widgets/blog.php:381
 #: includes/elementor/widgets/image-carousel.php:265
 #: includes/elementor/widgets/instagram-feed.php:358
-#: includes/elementor/widgets/product-categories.php:524
+#: includes/elementor/widgets/product-categories.php:526
 #: includes/elementor/widgets/products-by-attribute.php:747
 #: includes/elementor/widgets/single-product.php:433
 #: includes/elementor/widgets/woocommerce-handpicked-products.php:716
@@ -3325,7 +3329,7 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/image-carousel.php:266
 #: build/kitestudio-core/includes/elementor/widgets/instagram-feed.php:359
 #: build/kitestudio-core/includes/elementor/widgets/pie-chart.php:202
-#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:525
+#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:527
 #: build/kitestudio-core/includes/elementor/widgets/products-by-attribute.php:748
 #: build/kitestudio-core/includes/elementor/widgets/single-product.php:434
 #: build/kitestudio-core/includes/elementor/widgets/woocommerce-handpicked-products.php:717
@@ -3336,7 +3340,7 @@ msgstr ""
 #: includes/elementor/widgets/image-carousel.php:266
 #: includes/elementor/widgets/instagram-feed.php:359
 #: includes/elementor/widgets/pie-chart.php:202
-#: includes/elementor/widgets/product-categories.php:525
+#: includes/elementor/widgets/product-categories.php:527
 #: includes/elementor/widgets/products-by-attribute.php:748
 #: includes/elementor/widgets/single-product.php:434
 #: includes/elementor/widgets/woocommerce-handpicked-products.php:717
@@ -3348,7 +3352,7 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/blog.php:390
 #: build/kitestudio-core/includes/elementor/widgets/image-carousel.php:274
 #: build/kitestudio-core/includes/elementor/widgets/instagram-feed.php:367
-#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:533
+#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:535
 #: build/kitestudio-core/includes/elementor/widgets/products-by-attribute.php:756
 #: build/kitestudio-core/includes/elementor/widgets/single-product.php:442
 #: build/kitestudio-core/includes/elementor/widgets/woocommerce-handpicked-products.php:725
@@ -3357,7 +3361,7 @@ msgstr ""
 #: includes/elementor/widgets/blog.php:390
 #: includes/elementor/widgets/image-carousel.php:274
 #: includes/elementor/widgets/instagram-feed.php:367
-#: includes/elementor/widgets/product-categories.php:533
+#: includes/elementor/widgets/product-categories.php:535
 #: includes/elementor/widgets/products-by-attribute.php:756
 #: includes/elementor/widgets/single-product.php:442
 #: includes/elementor/widgets/woocommerce-handpicked-products.php:725
@@ -3487,12 +3491,12 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/products-by-attribute.php:778
 #: build/kitestudio-core/includes/elementor/widgets/single-product.php:464
 #: build/kitestudio-core/includes/elementor/widgets/testimonial.php:430
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/account.php:558
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:773
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/compare.php:523
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/newsletter.php:523
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1270
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:761
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/account.php:560
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:777
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/compare.php:525
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/newsletter.php:525
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1272
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:765
 #: build/kitestudio-core/includes/elementor/widgets/title.php:138
 #: build/kitestudio-core/includes/elementor/widgets/woocommerce-handpicked-products.php:747
 #: build/kitestudio-core/includes/elementor/widgets/woocommerce-products.php:808
@@ -3503,12 +3507,12 @@ msgstr ""
 #: includes/elementor/widgets/products-by-attribute.php:778
 #: includes/elementor/widgets/single-product.php:464
 #: includes/elementor/widgets/testimonial.php:430
-#: includes/elementor/widgets/theme-widgets/account.php:558
-#: includes/elementor/widgets/theme-widgets/cart.php:773
-#: includes/elementor/widgets/theme-widgets/compare.php:523
-#: includes/elementor/widgets/theme-widgets/newsletter.php:523
-#: includes/elementor/widgets/theme-widgets/search.php:1270
-#: includes/elementor/widgets/theme-widgets/wishlist.php:761
+#: includes/elementor/widgets/theme-widgets/account.php:560
+#: includes/elementor/widgets/theme-widgets/cart.php:777
+#: includes/elementor/widgets/theme-widgets/compare.php:525
+#: includes/elementor/widgets/theme-widgets/newsletter.php:525
+#: includes/elementor/widgets/theme-widgets/search.php:1272
+#: includes/elementor/widgets/theme-widgets/wishlist.php:765
 #: includes/elementor/widgets/title.php:138
 #: includes/elementor/widgets/woocommerce-handpicked-products.php:747
 #: includes/elementor/widgets/woocommerce-products.php:808
@@ -3524,12 +3528,12 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/products-by-attribute.php:789
 #: build/kitestudio-core/includes/elementor/widgets/single-product.php:475
 #: build/kitestudio-core/includes/elementor/widgets/testimonial.php:441
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/account.php:533
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:760
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/compare.php:510
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/newsletter.php:510
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1257
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:736
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/account.php:535
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:764
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/compare.php:512
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/newsletter.php:512
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1259
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:740
 #: build/kitestudio-core/includes/elementor/widgets/title.php:149
 #: build/kitestudio-core/includes/elementor/widgets/woocommerce-handpicked-products.php:758
 #: build/kitestudio-core/includes/elementor/widgets/woocommerce-products.php:819
@@ -3542,12 +3546,12 @@ msgstr ""
 #: includes/elementor/widgets/products-by-attribute.php:789
 #: includes/elementor/widgets/single-product.php:475
 #: includes/elementor/widgets/testimonial.php:441
-#: includes/elementor/widgets/theme-widgets/account.php:533
-#: includes/elementor/widgets/theme-widgets/cart.php:760
-#: includes/elementor/widgets/theme-widgets/compare.php:510
-#: includes/elementor/widgets/theme-widgets/newsletter.php:510
-#: includes/elementor/widgets/theme-widgets/search.php:1257
-#: includes/elementor/widgets/theme-widgets/wishlist.php:736
+#: includes/elementor/widgets/theme-widgets/account.php:535
+#: includes/elementor/widgets/theme-widgets/cart.php:764
+#: includes/elementor/widgets/theme-widgets/compare.php:512
+#: includes/elementor/widgets/theme-widgets/newsletter.php:512
+#: includes/elementor/widgets/theme-widgets/search.php:1259
+#: includes/elementor/widgets/theme-widgets/wishlist.php:740
 #: includes/elementor/widgets/title.php:149
 #: includes/elementor/widgets/woocommerce-handpicked-products.php:758
 #: includes/elementor/widgets/woocommerce-products.php:819
@@ -3599,8 +3603,8 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/compare.php:441
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/newsletter.php:371
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/newsletter.php:441
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1068
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1177
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1070
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1179
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:399
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:563
 #: includes/elementor/widgets/ajax-woocommerce-products.php:1240
@@ -3612,8 +3616,8 @@ msgstr ""
 #: includes/elementor/widgets/theme-widgets/compare.php:441
 #: includes/elementor/widgets/theme-widgets/newsletter.php:371
 #: includes/elementor/widgets/theme-widgets/newsletter.php:441
-#: includes/elementor/widgets/theme-widgets/search.php:1068
-#: includes/elementor/widgets/theme-widgets/search.php:1177
+#: includes/elementor/widgets/theme-widgets/search.php:1070
+#: includes/elementor/widgets/theme-widgets/search.php:1179
 #: includes/elementor/widgets/theme-widgets/wishlist.php:399
 #: includes/elementor/widgets/theme-widgets/wishlist.php:563
 msgid "Subtitle Margin"
@@ -3640,21 +3644,21 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/account.php:338
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:232
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:366
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:381
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:579
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:383
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:583
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/compare.php:181
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/compare.php:315
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:278
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:410
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:412
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/newsletter.php:181
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/newsletter.php:315
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:351
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:509
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:646
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:783
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:993
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:316
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:464
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:995
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:318
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:466
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:209
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:343
 #: includes/elementor/widgets/ajax-woocommerce-products.php:1276
@@ -3668,21 +3672,21 @@ msgstr ""
 #: includes/elementor/widgets/theme-widgets/account.php:338
 #: includes/elementor/widgets/theme-widgets/cart.php:232
 #: includes/elementor/widgets/theme-widgets/cart.php:366
-#: includes/elementor/widgets/theme-widgets/categories.php:381
-#: includes/elementor/widgets/theme-widgets/categories.php:579
+#: includes/elementor/widgets/theme-widgets/categories.php:383
+#: includes/elementor/widgets/theme-widgets/categories.php:583
 #: includes/elementor/widgets/theme-widgets/compare.php:181
 #: includes/elementor/widgets/theme-widgets/compare.php:315
 #: includes/elementor/widgets/theme-widgets/menu.php:278
-#: includes/elementor/widgets/theme-widgets/menu.php:410
+#: includes/elementor/widgets/theme-widgets/menu.php:412
 #: includes/elementor/widgets/theme-widgets/newsletter.php:181
 #: includes/elementor/widgets/theme-widgets/newsletter.php:315
 #: includes/elementor/widgets/theme-widgets/search.php:351
 #: includes/elementor/widgets/theme-widgets/search.php:509
 #: includes/elementor/widgets/theme-widgets/search.php:646
 #: includes/elementor/widgets/theme-widgets/search.php:783
-#: includes/elementor/widgets/theme-widgets/search.php:993
-#: includes/elementor/widgets/theme-widgets/select.php:316
-#: includes/elementor/widgets/theme-widgets/select.php:464
+#: includes/elementor/widgets/theme-widgets/search.php:995
+#: includes/elementor/widgets/theme-widgets/select.php:318
+#: includes/elementor/widgets/theme-widgets/select.php:466
 #: includes/elementor/widgets/theme-widgets/wishlist.php:209
 #: includes/elementor/widgets/theme-widgets/wishlist.php:343
 msgid "Normal"
@@ -3694,7 +3698,7 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/mailchimp.php:439
 #: build/kitestudio-core/includes/elementor/widgets/mailchimp.php:475
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:337
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:494
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:496
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:399
 #: includes/elementor/widgets/ajax-woocommerce-products.php:1284
 #: includes/elementor/widgets/imagebox.php:275
@@ -3702,7 +3706,7 @@ msgstr ""
 #: includes/elementor/widgets/mailchimp.php:439
 #: includes/elementor/widgets/mailchimp.php:475
 #: includes/elementor/widgets/theme-widgets/categories.php:337
-#: includes/elementor/widgets/theme-widgets/categories.php:494
+#: includes/elementor/widgets/theme-widgets/categories.php:496
 #: includes/elementor/widgets/theme-widgets/menu.php:399
 msgid "Typography"
 msgstr ""
@@ -3715,13 +3719,13 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/ajax-woocommerce-products.php:1309
 #: build/kitestudio-core/includes/elementor/widgets/ajax-woocommerce-products.php:1387
 #: build/kitestudio-core/includes/elementor/widgets/ajax-woocommerce-products.php:1454
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:337
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:368
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:339
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:370
 #: includes/elementor/widgets/ajax-woocommerce-products.php:1309
 #: includes/elementor/widgets/ajax-woocommerce-products.php:1387
 #: includes/elementor/widgets/ajax-woocommerce-products.php:1454
-#: includes/elementor/widgets/theme-widgets/select.php:337
-#: includes/elementor/widgets/theme-widgets/select.php:368
+#: includes/elementor/widgets/theme-widgets/select.php:339
+#: includes/elementor/widgets/theme-widgets/select.php:370
 msgid "Select Background"
 msgstr ""
 
@@ -3733,14 +3737,14 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/ajax-woocommerce-products.php:1340
 #: build/kitestudio-core/includes/elementor/widgets/mailchimp.php:334
 #: build/kitestudio-core/includes/elementor/widgets/mailchimp.php:580
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:774
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:776
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:483
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:620
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:757
 #: includes/elementor/widgets/ajax-woocommerce-products.php:1340
 #: includes/elementor/widgets/mailchimp.php:334
 #: includes/elementor/widgets/mailchimp.php:580
-#: includes/elementor/widgets/theme-widgets/menu.php:774
+#: includes/elementor/widgets/theme-widgets/menu.php:776
 #: includes/elementor/widgets/theme-widgets/search.php:483
 #: includes/elementor/widgets/theme-widgets/search.php:620
 #: includes/elementor/widgets/theme-widgets/search.php:757
@@ -3750,13 +3754,13 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/ajax-woocommerce-products.php:1352
 #: build/kitestudio-core/includes/elementor/widgets/mailchimp.php:322
 #: build/kitestudio-core/includes/elementor/widgets/mailchimp.php:568
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:355
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:786
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:357
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:788
 #: includes/elementor/widgets/ajax-woocommerce-products.php:1352
 #: includes/elementor/widgets/mailchimp.php:322
 #: includes/elementor/widgets/mailchimp.php:568
-#: includes/elementor/widgets/theme-widgets/categories.php:355
-#: includes/elementor/widgets/theme-widgets/menu.php:786
+#: includes/elementor/widgets/theme-widgets/categories.php:357
+#: includes/elementor/widgets/theme-widgets/menu.php:788
 msgid "Padding"
 msgstr ""
 
@@ -3771,22 +3775,22 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/account.php:408
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:260
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:530
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:421
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:675
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:423
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:679
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/compare.php:209
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/compare.php:385
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:327
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:524
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:526
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/newsletter.php:209
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/newsletter.php:385
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:399
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:557
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:694
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:868
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1102
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1104
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:180
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:348
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:507
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:350
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:509
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:237
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:507
 #: includes/elementor/widgets/ajax-woocommerce-products.php:1367
@@ -3800,22 +3804,22 @@ msgstr ""
 #: includes/elementor/widgets/theme-widgets/account.php:408
 #: includes/elementor/widgets/theme-widgets/cart.php:260
 #: includes/elementor/widgets/theme-widgets/cart.php:530
-#: includes/elementor/widgets/theme-widgets/categories.php:421
-#: includes/elementor/widgets/theme-widgets/categories.php:675
+#: includes/elementor/widgets/theme-widgets/categories.php:423
+#: includes/elementor/widgets/theme-widgets/categories.php:679
 #: includes/elementor/widgets/theme-widgets/compare.php:209
 #: includes/elementor/widgets/theme-widgets/compare.php:385
 #: includes/elementor/widgets/theme-widgets/menu.php:327
-#: includes/elementor/widgets/theme-widgets/menu.php:524
+#: includes/elementor/widgets/theme-widgets/menu.php:526
 #: includes/elementor/widgets/theme-widgets/newsletter.php:209
 #: includes/elementor/widgets/theme-widgets/newsletter.php:385
 #: includes/elementor/widgets/theme-widgets/search.php:399
 #: includes/elementor/widgets/theme-widgets/search.php:557
 #: includes/elementor/widgets/theme-widgets/search.php:694
 #: includes/elementor/widgets/theme-widgets/search.php:868
-#: includes/elementor/widgets/theme-widgets/search.php:1102
+#: includes/elementor/widgets/theme-widgets/search.php:1104
 #: includes/elementor/widgets/theme-widgets/select.php:180
-#: includes/elementor/widgets/theme-widgets/select.php:348
-#: includes/elementor/widgets/theme-widgets/select.php:507
+#: includes/elementor/widgets/theme-widgets/select.php:350
+#: includes/elementor/widgets/theme-widgets/select.php:509
 #: includes/elementor/widgets/theme-widgets/wishlist.php:237
 #: includes/elementor/widgets/theme-widgets/wishlist.php:507
 msgid "Hover"
@@ -3835,11 +3839,11 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/mailchimp.php:695
 #: build/kitestudio-core/includes/elementor/widgets/testimonial.php:285
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:287
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:367
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:553
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:448
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:562
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:676
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:369
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:557
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:450
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:564
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:678
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:375
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:423
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:533
@@ -3848,8 +3852,8 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:718
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:832
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:917
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1088
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1197
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1090
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1199
 #: includes/elementor/widgets/ajax-woocommerce-products.php:1406
 #: includes/elementor/widgets/ajax-woocommerce-products.php:1473
 #: includes/elementor/widgets/contact-form-7.php:299
@@ -3859,11 +3863,11 @@ msgstr ""
 #: includes/elementor/widgets/mailchimp.php:695
 #: includes/elementor/widgets/testimonial.php:285
 #: includes/elementor/widgets/theme-widgets/categories.php:287
-#: includes/elementor/widgets/theme-widgets/categories.php:367
-#: includes/elementor/widgets/theme-widgets/categories.php:553
-#: includes/elementor/widgets/theme-widgets/menu.php:448
-#: includes/elementor/widgets/theme-widgets/menu.php:562
-#: includes/elementor/widgets/theme-widgets/menu.php:676
+#: includes/elementor/widgets/theme-widgets/categories.php:369
+#: includes/elementor/widgets/theme-widgets/categories.php:557
+#: includes/elementor/widgets/theme-widgets/menu.php:450
+#: includes/elementor/widgets/theme-widgets/menu.php:564
+#: includes/elementor/widgets/theme-widgets/menu.php:678
 #: includes/elementor/widgets/theme-widgets/search.php:375
 #: includes/elementor/widgets/theme-widgets/search.php:423
 #: includes/elementor/widgets/theme-widgets/search.php:533
@@ -3872,15 +3876,15 @@ msgstr ""
 #: includes/elementor/widgets/theme-widgets/search.php:718
 #: includes/elementor/widgets/theme-widgets/search.php:832
 #: includes/elementor/widgets/theme-widgets/search.php:917
-#: includes/elementor/widgets/theme-widgets/search.php:1088
-#: includes/elementor/widgets/theme-widgets/search.php:1197
+#: includes/elementor/widgets/theme-widgets/search.php:1090
+#: includes/elementor/widgets/theme-widgets/search.php:1199
 msgid "Border Radius"
 msgstr ""
 
 #: build/kitestudio-core/includes/elementor/widgets/ajax-woocommerce-products.php:1420
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:638
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:640
 #: includes/elementor/widgets/ajax-woocommerce-products.php:1420
-#: includes/elementor/widgets/theme-widgets/menu.php:638
+#: includes/elementor/widgets/theme-widgets/menu.php:640
 msgid "Selected"
 msgstr ""
 
@@ -3969,16 +3973,16 @@ msgstr ""
 
 #: build/kitestudio-core/includes/elementor/widgets/animated-text.php:145
 #: build/kitestudio-core/includes/elementor/widgets/blog.php:278
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:682
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:531
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:645
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:686
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:533
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:647
 #: build/kitestudio-core/includes/post-types/page.php:502
 #: build/kitestudio-core/includes/post-types/page.php:536
 #: includes/elementor/widgets/animated-text.php:145
 #: includes/elementor/widgets/blog.php:278
-#: includes/elementor/widgets/theme-widgets/categories.php:682
-#: includes/elementor/widgets/theme-widgets/menu.php:531
-#: includes/elementor/widgets/theme-widgets/menu.php:645
+#: includes/elementor/widgets/theme-widgets/categories.php:686
+#: includes/elementor/widgets/theme-widgets/menu.php:533
+#: includes/elementor/widgets/theme-widgets/menu.php:647
 #: includes/post-types/page.php:502
 #: includes/post-types/page.php:536
 msgid "Text Color"
@@ -4020,14 +4024,14 @@ msgstr ""
 
 #: build/kitestudio-core/includes/elementor/widgets/animated-text.php:182
 #: build/kitestudio-core/includes/elementor/widgets/banner.php:125
-#: build/kitestudio-core/includes/elementor/widgets/banner.php:486
+#: build/kitestudio-core/includes/elementor/widgets/banner.php:488
 #: build/kitestudio-core/includes/elementor/widgets/button.php:191
 #: build/kitestudio-core/includes/elementor/widgets/image-carousel.php:176
 #: build/kitestudio-core/includes/elementor/widgets/imagebox.php:115
 #: build/kitestudio-core/includes/elementor/widgets/instagram-feed.php:164
 #: includes/elementor/widgets/animated-text.php:182
 #: includes/elementor/widgets/banner.php:125
-#: includes/elementor/widgets/banner.php:486
+#: includes/elementor/widgets/banner.php:488
 #: includes/elementor/widgets/button.php:191
 #: includes/elementor/widgets/image-carousel.php:176
 #: includes/elementor/widgets/imagebox.php:115
@@ -4055,11 +4059,11 @@ msgid "Banner"
 msgstr ""
 
 #: build/kitestudio-core/includes/elementor/widgets/banner.php:124
-#: build/kitestudio-core/includes/elementor/widgets/banner.php:487
+#: build/kitestudio-core/includes/elementor/widgets/banner.php:489
 #: build/kitestudio-core/includes/elementor/widgets/blog.php:187
 #: build/kitestudio-core/includes/elementor/widgets/button.php:192
 #: includes/elementor/widgets/banner.php:124
-#: includes/elementor/widgets/banner.php:487
+#: includes/elementor/widgets/banner.php:489
 #: includes/elementor/widgets/blog.php:187
 #: includes/elementor/widgets/button.php:192
 msgid "Large"
@@ -4280,30 +4284,30 @@ msgstr ""
 msgid "Link Typography"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/banner.php:470
-#: includes/elementor/widgets/banner.php:470
+#: build/kitestudio-core/includes/elementor/widgets/banner.php:472
+#: includes/elementor/widgets/banner.php:472
 msgid "Show Button on release style"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/banner.php:481
-#: includes/elementor/widgets/banner.php:481
+#: build/kitestudio-core/includes/elementor/widgets/banner.php:483
+#: includes/elementor/widgets/banner.php:483
 msgid "Button Size"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/banner.php:485
+#: build/kitestudio-core/includes/elementor/widgets/banner.php:487
 #: build/kitestudio-core/includes/elementor/widgets/button.php:190
-#: includes/elementor/widgets/banner.php:485
+#: includes/elementor/widgets/banner.php:487
 #: includes/elementor/widgets/button.php:190
 msgid "Small"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/banner.php:500
-#: includes/elementor/widgets/banner.php:500
+#: build/kitestudio-core/includes/elementor/widgets/banner.php:502
+#: includes/elementor/widgets/banner.php:502
 msgid "Banner Border"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/banner.php:508
-#: includes/elementor/widgets/banner.php:508
+#: build/kitestudio-core/includes/elementor/widgets/banner.php:510
+#: includes/elementor/widgets/banner.php:510
 msgid "Banner Border Radius"
 msgstr ""
 
@@ -4414,15 +4418,15 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/blog.php:317
 #: build/kitestudio-core/includes/elementor/widgets/button.php:356
 #: build/kitestudio-core/includes/elementor/widgets/count-down.php:130
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:389
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:429
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:391
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:431
 #: build/kitestudio-core/includes/post-types/page.php:497
 #: build/kitestudio-core/includes/post-types/page.php:531
 #: includes/elementor/widgets/blog.php:317
 #: includes/elementor/widgets/button.php:356
 #: includes/elementor/widgets/count-down.php:130
-#: includes/elementor/widgets/theme-widgets/categories.php:389
-#: includes/elementor/widgets/theme-widgets/categories.php:429
+#: includes/elementor/widgets/theme-widgets/categories.php:391
+#: includes/elementor/widgets/theme-widgets/categories.php:431
 #: includes/post-types/page.php:497
 #: includes/post-types/page.php:531
 msgid "Background Color"
@@ -4447,7 +4451,7 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/counter-box.php:155
 #: build/kitestudio-core/includes/elementor/widgets/instagram-feed.php:341
 #: build/kitestudio-core/includes/elementor/widgets/pie-chart.php:184
-#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:497
+#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:499
 #: build/kitestudio-core/includes/elementor/widgets/products-by-attribute.php:730
 #: build/kitestudio-core/includes/elementor/widgets/single-product.php:417
 #: build/kitestudio-core/includes/elementor/widgets/woocommerce-handpicked-products.php:699
@@ -4456,7 +4460,7 @@ msgstr ""
 #: includes/elementor/widgets/counter-box.php:155
 #: includes/elementor/widgets/instagram-feed.php:341
 #: includes/elementor/widgets/pie-chart.php:184
-#: includes/elementor/widgets/product-categories.php:497
+#: includes/elementor/widgets/product-categories.php:499
 #: includes/elementor/widgets/products-by-attribute.php:730
 #: includes/elementor/widgets/single-product.php:417
 #: includes/elementor/widgets/woocommerce-handpicked-products.php:699
@@ -4729,9 +4733,9 @@ msgstr ""
 
 #: build/kitestudio-core/includes/elementor/widgets/contact-form-7.php:255
 #: build/kitestudio-core/includes/elementor/widgets/contact-form-7.php:320
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:430
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:544
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:658
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:432
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:546
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:660
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:388
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:436
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:546
@@ -4740,12 +4744,12 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:731
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:845
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:930
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1110
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1112
 #: includes/elementor/widgets/contact-form-7.php:255
 #: includes/elementor/widgets/contact-form-7.php:320
-#: includes/elementor/widgets/theme-widgets/menu.php:430
-#: includes/elementor/widgets/theme-widgets/menu.php:544
-#: includes/elementor/widgets/theme-widgets/menu.php:658
+#: includes/elementor/widgets/theme-widgets/menu.php:432
+#: includes/elementor/widgets/theme-widgets/menu.php:546
+#: includes/elementor/widgets/theme-widgets/menu.php:660
 #: includes/elementor/widgets/theme-widgets/search.php:388
 #: includes/elementor/widgets/theme-widgets/search.php:436
 #: includes/elementor/widgets/theme-widgets/search.php:546
@@ -4754,7 +4758,7 @@ msgstr ""
 #: includes/elementor/widgets/theme-widgets/search.php:731
 #: includes/elementor/widgets/theme-widgets/search.php:845
 #: includes/elementor/widgets/theme-widgets/search.php:930
-#: includes/elementor/widgets/theme-widgets/search.php:1110
+#: includes/elementor/widgets/theme-widgets/search.php:1112
 msgid "Background"
 msgstr ""
 
@@ -5027,8 +5031,8 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/compare.php:417
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/newsletter.php:347
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/newsletter.php:417
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1044
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1153
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1046
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1155
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:375
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:539
 #: includes/elementor/widgets/icon-box-creative.php:144
@@ -5044,8 +5048,8 @@ msgstr ""
 #: includes/elementor/widgets/theme-widgets/compare.php:417
 #: includes/elementor/widgets/theme-widgets/newsletter.php:347
 #: includes/elementor/widgets/theme-widgets/newsletter.php:417
-#: includes/elementor/widgets/theme-widgets/search.php:1044
-#: includes/elementor/widgets/theme-widgets/search.php:1153
+#: includes/elementor/widgets/theme-widgets/search.php:1046
+#: includes/elementor/widgets/theme-widgets/search.php:1155
 #: includes/elementor/widgets/theme-widgets/wishlist.php:375
 #: includes/elementor/widgets/theme-widgets/wishlist.php:539
 msgid "Icon color "
@@ -5178,10 +5182,10 @@ msgstr ""
 
 #: build/kitestudio-core/includes/elementor/widgets/image-carousel.php:128
 #: build/kitestudio-core/includes/elementor/widgets/instagram-feed.php:244
-#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:482
+#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:484
 #: includes/elementor/widgets/image-carousel.php:128
 #: includes/elementor/widgets/instagram-feed.php:244
-#: includes/elementor/widgets/product-categories.php:482
+#: includes/elementor/widgets/product-categories.php:484
 msgid "Remove Gutter"
 msgstr ""
 
@@ -5600,18 +5604,18 @@ msgstr ""
 msgid "Description Typography"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:467
-#: includes/elementor/widgets/product-categories.php:467
+#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:469
+#: includes/elementor/widgets/product-categories.php:469
 msgid "Disable Border"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:473
-#: includes/elementor/widgets/product-categories.php:473
+#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:475
+#: includes/elementor/widgets/product-categories.php:475
 msgid "Disable border around the product box"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:504
-#: includes/elementor/widgets/product-categories.php:504
+#: build/kitestudio-core/includes/elementor/widgets/product-categories.php:506
+#: includes/elementor/widgets/product-categories.php:506
 msgid "Hover Animation"
 msgstr ""
 
@@ -6132,11 +6136,11 @@ msgstr ""
 
 #: build/kitestudio-core/includes/elementor/widgets/testimonial.php:320
 #: build/kitestudio-core/includes/elementor/widgets/testimonial.php:338
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:410
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:450
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:460
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:574
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:688
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:412
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:452
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:462
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:576
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:690
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:358
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:406
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:516
@@ -6147,11 +6151,11 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:900
 #: includes/elementor/widgets/testimonial.php:320
 #: includes/elementor/widgets/testimonial.php:338
-#: includes/elementor/widgets/theme-widgets/categories.php:410
-#: includes/elementor/widgets/theme-widgets/categories.php:450
-#: includes/elementor/widgets/theme-widgets/menu.php:460
-#: includes/elementor/widgets/theme-widgets/menu.php:574
-#: includes/elementor/widgets/theme-widgets/menu.php:688
+#: includes/elementor/widgets/theme-widgets/categories.php:412
+#: includes/elementor/widgets/theme-widgets/categories.php:452
+#: includes/elementor/widgets/theme-widgets/menu.php:462
+#: includes/elementor/widgets/theme-widgets/menu.php:576
+#: includes/elementor/widgets/theme-widgets/menu.php:690
 #: includes/elementor/widgets/theme-widgets/search.php:358
 #: includes/elementor/widgets/theme-widgets/search.php:406
 #: includes/elementor/widgets/theme-widgets/search.php:516
@@ -6164,21 +6168,21 @@ msgid "Box Shadow"
 msgstr ""
 
 #: build/kitestudio-core/includes/elementor/widgets/testimonial.php:347
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:463
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:773
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:465
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:777
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:357
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:754
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:756
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:449
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:377
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:548
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:379
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:550
 #: includes/elementor/widgets/testimonial.php:347
-#: includes/elementor/widgets/theme-widgets/categories.php:463
-#: includes/elementor/widgets/theme-widgets/categories.php:773
+#: includes/elementor/widgets/theme-widgets/categories.php:465
+#: includes/elementor/widgets/theme-widgets/categories.php:777
 #: includes/elementor/widgets/theme-widgets/menu.php:357
-#: includes/elementor/widgets/theme-widgets/menu.php:754
+#: includes/elementor/widgets/theme-widgets/menu.php:756
 #: includes/elementor/widgets/theme-widgets/search.php:449
-#: includes/elementor/widgets/theme-widgets/select.php:377
-#: includes/elementor/widgets/theme-widgets/select.php:548
+#: includes/elementor/widgets/theme-widgets/select.php:379
+#: includes/elementor/widgets/theme-widgets/select.php:550
 msgid "Transition (ms)"
 msgstr ""
 
@@ -6348,8 +6352,8 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:344
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/newsletter.php:198
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/newsletter.php:226
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1010
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1119
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1012
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1121
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:226
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:254
 #: includes/elementor/widgets/theme-widgets/account.php:221
@@ -6362,8 +6366,8 @@ msgstr ""
 #: includes/elementor/widgets/theme-widgets/menu.php:344
 #: includes/elementor/widgets/theme-widgets/newsletter.php:198
 #: includes/elementor/widgets/theme-widgets/newsletter.php:226
-#: includes/elementor/widgets/theme-widgets/search.php:1010
-#: includes/elementor/widgets/theme-widgets/search.php:1119
+#: includes/elementor/widgets/theme-widgets/search.php:1012
+#: includes/elementor/widgets/theme-widgets/search.php:1121
 #: includes/elementor/widgets/theme-widgets/wishlist.php:226
 #: includes/elementor/widgets/theme-widgets/wishlist.php:254
 msgid "Wrapper Box Shadow"
@@ -6399,13 +6403,13 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:321
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/compare.php:270
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/newsletter.php:270
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:979
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:981
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:298
 #: includes/elementor/widgets/theme-widgets/account.php:293
 #: includes/elementor/widgets/theme-widgets/cart.php:321
 #: includes/elementor/widgets/theme-widgets/compare.php:270
 #: includes/elementor/widgets/theme-widgets/newsletter.php:270
-#: includes/elementor/widgets/theme-widgets/search.php:979
+#: includes/elementor/widgets/theme-widgets/search.php:981
 #: includes/elementor/widgets/theme-widgets/wishlist.php:298
 msgid "Wrapper Padding"
 msgstr ""
@@ -6444,30 +6448,30 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/account.php:415
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:373
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:537
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:525
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:529
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/compare.php:322
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/compare.php:392
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/newsletter.php:322
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/newsletter.php:392
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:790
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:875
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1019
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1128
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1021
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1130
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:350
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:514
 #: includes/elementor/widgets/theme-widgets/account.php:345
 #: includes/elementor/widgets/theme-widgets/account.php:415
 #: includes/elementor/widgets/theme-widgets/cart.php:373
 #: includes/elementor/widgets/theme-widgets/cart.php:537
-#: includes/elementor/widgets/theme-widgets/categories.php:525
+#: includes/elementor/widgets/theme-widgets/categories.php:529
 #: includes/elementor/widgets/theme-widgets/compare.php:322
 #: includes/elementor/widgets/theme-widgets/compare.php:392
 #: includes/elementor/widgets/theme-widgets/newsletter.php:322
 #: includes/elementor/widgets/theme-widgets/newsletter.php:392
 #: includes/elementor/widgets/theme-widgets/search.php:790
 #: includes/elementor/widgets/theme-widgets/search.php:875
-#: includes/elementor/widgets/theme-widgets/search.php:1019
-#: includes/elementor/widgets/theme-widgets/search.php:1128
+#: includes/elementor/widgets/theme-widgets/search.php:1021
+#: includes/elementor/widgets/theme-widgets/search.php:1130
 #: includes/elementor/widgets/theme-widgets/wishlist.php:350
 #: includes/elementor/widgets/theme-widgets/wishlist.php:514
 msgid "Icon Size"
@@ -6481,8 +6485,8 @@ msgstr ""
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/compare.php:429
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/newsletter.php:359
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/newsletter.php:429
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1056
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1165
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1058
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1167
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:387
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:551
 #: includes/elementor/widgets/theme-widgets/account.php:382
@@ -6493,8 +6497,8 @@ msgstr ""
 #: includes/elementor/widgets/theme-widgets/compare.php:429
 #: includes/elementor/widgets/theme-widgets/newsletter.php:359
 #: includes/elementor/widgets/theme-widgets/newsletter.php:429
-#: includes/elementor/widgets/theme-widgets/search.php:1056
-#: includes/elementor/widgets/theme-widgets/search.php:1165
+#: includes/elementor/widgets/theme-widgets/search.php:1058
+#: includes/elementor/widgets/theme-widgets/search.php:1167
 #: includes/elementor/widgets/theme-widgets/wishlist.php:387
 #: includes/elementor/widgets/theme-widgets/wishlist.php:551
 msgid "Icon Subtitle color "
@@ -6513,40 +6517,40 @@ msgstr ""
 msgid "Icon Styles Transition (ms)"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/account.php:513
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:740
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/compare.php:490
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/newsletter.php:490
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1234
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:716
-#: includes/elementor/widgets/theme-widgets/account.php:513
-#: includes/elementor/widgets/theme-widgets/cart.php:740
-#: includes/elementor/widgets/theme-widgets/compare.php:490
-#: includes/elementor/widgets/theme-widgets/newsletter.php:490
-#: includes/elementor/widgets/theme-widgets/search.php:1234
-#: includes/elementor/widgets/theme-widgets/wishlist.php:716
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/account.php:515
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:744
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/compare.php:492
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/newsletter.php:492
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1236
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:720
+#: includes/elementor/widgets/theme-widgets/account.php:515
+#: includes/elementor/widgets/theme-widgets/cart.php:744
+#: includes/elementor/widgets/theme-widgets/compare.php:492
+#: includes/elementor/widgets/theme-widgets/newsletter.php:492
+#: includes/elementor/widgets/theme-widgets/search.php:1236
+#: includes/elementor/widgets/theme-widgets/wishlist.php:720
 msgid "Meta Texts Style"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/account.php:521
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:748
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/compare.php:498
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/newsletter.php:498
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1245
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:724
-#: includes/elementor/widgets/theme-widgets/account.php:521
-#: includes/elementor/widgets/theme-widgets/cart.php:748
-#: includes/elementor/widgets/theme-widgets/compare.php:498
-#: includes/elementor/widgets/theme-widgets/newsletter.php:498
-#: includes/elementor/widgets/theme-widgets/search.php:1245
-#: includes/elementor/widgets/theme-widgets/wishlist.php:724
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/account.php:523
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:752
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/compare.php:500
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/newsletter.php:500
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1247
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:728
+#: includes/elementor/widgets/theme-widgets/account.php:523
+#: includes/elementor/widgets/theme-widgets/cart.php:752
+#: includes/elementor/widgets/theme-widgets/compare.php:500
+#: includes/elementor/widgets/theme-widgets/newsletter.php:500
+#: includes/elementor/widgets/theme-widgets/search.php:1247
+#: includes/elementor/widgets/theme-widgets/wishlist.php:728
 msgid "Meta Texts Margin"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/account.php:545
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:748
-#: includes/elementor/widgets/theme-widgets/account.php:545
-#: includes/elementor/widgets/theme-widgets/wishlist.php:748
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/account.php:547
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:752
+#: includes/elementor/widgets/theme-widgets/account.php:547
+#: includes/elementor/widgets/theme-widgets/wishlist.php:752
 msgid "Title hover color "
 msgstr ""
 
@@ -6658,50 +6662,50 @@ msgstr ""
 msgid "Badge Box Shadow"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:729
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:705
-#: includes/elementor/widgets/theme-widgets/cart.php:729
-#: includes/elementor/widgets/theme-widgets/wishlist.php:705
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:731
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:707
+#: includes/elementor/widgets/theme-widgets/cart.php:731
+#: includes/elementor/widgets/theme-widgets/wishlist.php:707
 msgid "Badge Typography"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:782
-#: includes/elementor/widgets/theme-widgets/cart.php:782
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:788
+#: includes/elementor/widgets/theme-widgets/cart.php:788
 msgid "Amount color "
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:795
-#: includes/elementor/widgets/theme-widgets/cart.php:795
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:801
+#: includes/elementor/widgets/theme-widgets/cart.php:801
 msgid "Amount Typography"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:804
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:770
-#: includes/elementor/widgets/theme-widgets/cart.php:804
-#: includes/elementor/widgets/theme-widgets/wishlist.php:770
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:812
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:776
+#: includes/elementor/widgets/theme-widgets/cart.php:812
+#: includes/elementor/widgets/theme-widgets/wishlist.php:776
 msgid "Total Items color "
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:817
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:786
-#: includes/elementor/widgets/theme-widgets/cart.php:817
-#: includes/elementor/widgets/theme-widgets/wishlist.php:786
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:825
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:792
+#: includes/elementor/widgets/theme-widgets/cart.php:825
+#: includes/elementor/widgets/theme-widgets/wishlist.php:792
 msgid "Total Items Typography"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:866
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:876
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:160
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:837
-#: includes/elementor/widgets/theme-widgets/cart.php:866
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:845
+#: includes/elementor/widgets/theme-widgets/cart.php:876
 #: includes/elementor/widgets/theme-widgets/select.php:160
-#: includes/elementor/widgets/theme-widgets/wishlist.php:837
+#: includes/elementor/widgets/theme-widgets/wishlist.php:845
 msgid "Items"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:946
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:887
-#: includes/elementor/widgets/theme-widgets/cart.php:946
-#: includes/elementor/widgets/theme-widgets/wishlist.php:887
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/cart.php:956
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/wishlist.php:895
+#: includes/elementor/widgets/theme-widgets/cart.php:956
+#: includes/elementor/widgets/theme-widgets/wishlist.php:895
 msgid "0 Items"
 msgstr ""
 
@@ -6763,13 +6767,13 @@ msgid "Alway Open"
 msgstr ""
 
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:201
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:830
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:834
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:199
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:812
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:814
 #: includes/elementor/widgets/theme-widgets/categories.php:201
-#: includes/elementor/widgets/theme-widgets/categories.php:830
+#: includes/elementor/widgets/theme-widgets/categories.php:834
 #: includes/elementor/widgets/theme-widgets/menu.php:199
-#: includes/elementor/widgets/theme-widgets/menu.php:812
+#: includes/elementor/widgets/theme-widgets/menu.php:814
 msgid "Responsive"
 msgstr ""
 
@@ -6792,277 +6796,277 @@ msgstr ""
 msgid "Toggle Button"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:398
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:438
-#: includes/elementor/widgets/theme-widgets/categories.php:398
-#: includes/elementor/widgets/theme-widgets/categories.php:438
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:400
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:440
+#: includes/elementor/widgets/theme-widgets/categories.php:400
+#: includes/elementor/widgets/theme-widgets/categories.php:440
 msgid "Text Color "
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:485
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:487
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:390
-#: includes/elementor/widgets/theme-widgets/categories.php:485
+#: includes/elementor/widgets/theme-widgets/categories.php:487
 #: includes/elementor/widgets/theme-widgets/menu.php:390
 msgid "Menu Item Style"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:503
-#: includes/elementor/widgets/theme-widgets/categories.php:503
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:507
+#: includes/elementor/widgets/theme-widgets/categories.php:507
 msgid "Icon Position"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:565
-#: includes/elementor/widgets/theme-widgets/categories.php:565
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:569
+#: includes/elementor/widgets/theme-widgets/categories.php:569
 msgid "Last Item Border Radius"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:586
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:417
-#: includes/elementor/widgets/theme-widgets/categories.php:586
-#: includes/elementor/widgets/theme-widgets/menu.php:417
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:590
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:419
+#: includes/elementor/widgets/theme-widgets/categories.php:590
+#: includes/elementor/widgets/theme-widgets/menu.php:419
 msgid "Item Text Color"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:598
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:694
-#: includes/elementor/widgets/theme-widgets/categories.php:598
-#: includes/elementor/widgets/theme-widgets/categories.php:694
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:602
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:698
+#: includes/elementor/widgets/theme-widgets/categories.php:602
+#: includes/elementor/widgets/theme-widgets/categories.php:698
 msgid "Item Icon Color"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:611
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:707
-#: includes/elementor/widgets/theme-widgets/categories.php:611
-#: includes/elementor/widgets/theme-widgets/categories.php:707
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:615
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:711
+#: includes/elementor/widgets/theme-widgets/categories.php:615
+#: includes/elementor/widgets/theme-widgets/categories.php:711
 msgid "Menu Item Background"
-msgstr ""
-
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:620
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:716
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:469
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:583
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:697
-#: includes/elementor/widgets/theme-widgets/categories.php:620
-#: includes/elementor/widgets/theme-widgets/categories.php:716
-#: includes/elementor/widgets/theme-widgets/menu.php:469
-#: includes/elementor/widgets/theme-widgets/menu.php:583
-#: includes/elementor/widgets/theme-widgets/menu.php:697
-msgid "Decoration Line"
-msgstr ""
-
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:623
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:719
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:472
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:586
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:700
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:90
-#: includes/elementor/widgets/theme-widgets/categories.php:623
-#: includes/elementor/widgets/theme-widgets/categories.php:719
-#: includes/elementor/widgets/theme-widgets/menu.php:472
-#: includes/elementor/widgets/theme-widgets/menu.php:586
-#: includes/elementor/widgets/theme-widgets/menu.php:700
-#: includes/elementor/widgets/theme-widgets/select.php:90
-msgid "Select"
 msgstr ""
 
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:624
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:720
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:473
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:587
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:701
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:471
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:585
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:699
 #: includes/elementor/widgets/theme-widgets/categories.php:624
 #: includes/elementor/widgets/theme-widgets/categories.php:720
-#: includes/elementor/widgets/theme-widgets/menu.php:473
-#: includes/elementor/widgets/theme-widgets/menu.php:587
-#: includes/elementor/widgets/theme-widgets/menu.php:701
-msgid "Underline"
+#: includes/elementor/widgets/theme-widgets/menu.php:471
+#: includes/elementor/widgets/theme-widgets/menu.php:585
+#: includes/elementor/widgets/theme-widgets/menu.php:699
+msgid "Decoration Line"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:625
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:721
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:627
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:723
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:474
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:588
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:702
-#: includes/elementor/widgets/theme-widgets/categories.php:625
-#: includes/elementor/widgets/theme-widgets/categories.php:721
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:90
+#: includes/elementor/widgets/theme-widgets/categories.php:627
+#: includes/elementor/widgets/theme-widgets/categories.php:723
 #: includes/elementor/widgets/theme-widgets/menu.php:474
 #: includes/elementor/widgets/theme-widgets/menu.php:588
 #: includes/elementor/widgets/theme-widgets/menu.php:702
-msgid "Overline"
+#: includes/elementor/widgets/theme-widgets/select.php:90
+msgid "Select"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:626
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:722
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:628
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:724
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:475
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:589
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:703
-#: includes/elementor/widgets/theme-widgets/categories.php:626
-#: includes/elementor/widgets/theme-widgets/categories.php:722
+#: includes/elementor/widgets/theme-widgets/categories.php:628
+#: includes/elementor/widgets/theme-widgets/categories.php:724
 #: includes/elementor/widgets/theme-widgets/menu.php:475
 #: includes/elementor/widgets/theme-widgets/menu.php:589
 #: includes/elementor/widgets/theme-widgets/menu.php:703
+msgid "Underline"
+msgstr ""
+
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:629
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:725
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:476
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:590
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:704
+#: includes/elementor/widgets/theme-widgets/categories.php:629
+#: includes/elementor/widgets/theme-widgets/categories.php:725
+#: includes/elementor/widgets/theme-widgets/menu.php:476
+#: includes/elementor/widgets/theme-widgets/menu.php:590
+#: includes/elementor/widgets/theme-widgets/menu.php:704
+msgid "Overline"
+msgstr ""
+
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:630
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:726
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:477
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:591
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:705
+#: includes/elementor/widgets/theme-widgets/categories.php:630
+#: includes/elementor/widgets/theme-widgets/categories.php:726
+#: includes/elementor/widgets/theme-widgets/menu.php:477
+#: includes/elementor/widgets/theme-widgets/menu.php:591
+#: includes/elementor/widgets/theme-widgets/menu.php:705
 msgid "Line Through"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:637
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:733
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:486
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:600
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:714
-#: includes/elementor/widgets/theme-widgets/categories.php:637
-#: includes/elementor/widgets/theme-widgets/categories.php:733
-#: includes/elementor/widgets/theme-widgets/menu.php:486
-#: includes/elementor/widgets/theme-widgets/menu.php:600
-#: includes/elementor/widgets/theme-widgets/menu.php:714
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:641
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:737
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:488
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:602
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:716
+#: includes/elementor/widgets/theme-widgets/categories.php:641
+#: includes/elementor/widgets/theme-widgets/categories.php:737
+#: includes/elementor/widgets/theme-widgets/menu.php:488
+#: includes/elementor/widgets/theme-widgets/menu.php:602
+#: includes/elementor/widgets/theme-widgets/menu.php:716
 msgid "Decoration Style Color"
-msgstr ""
-
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:652
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:748
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:501
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:615
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:729
-#: includes/elementor/widgets/theme-widgets/categories.php:652
-#: includes/elementor/widgets/theme-widgets/categories.php:748
-#: includes/elementor/widgets/theme-widgets/menu.php:501
-#: includes/elementor/widgets/theme-widgets/menu.php:615
-#: includes/elementor/widgets/theme-widgets/menu.php:729
-msgid "Decoration Style"
-msgstr ""
-
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:655
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:751
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:504
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:618
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:732
-#: includes/elementor/widgets/theme-widgets/categories.php:655
-#: includes/elementor/widgets/theme-widgets/categories.php:751
-#: includes/elementor/widgets/theme-widgets/menu.php:504
-#: includes/elementor/widgets/theme-widgets/menu.php:618
-#: includes/elementor/widgets/theme-widgets/menu.php:732
-msgid "Solid"
 msgstr ""
 
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:656
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:752
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:505
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:619
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:733
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:503
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:617
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:731
 #: includes/elementor/widgets/theme-widgets/categories.php:656
 #: includes/elementor/widgets/theme-widgets/categories.php:752
-#: includes/elementor/widgets/theme-widgets/menu.php:505
-#: includes/elementor/widgets/theme-widgets/menu.php:619
-#: includes/elementor/widgets/theme-widgets/menu.php:733
-msgid "Double"
-msgstr ""
-
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:657
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:753
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:506
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:620
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:734
-#: includes/elementor/widgets/theme-widgets/categories.php:657
-#: includes/elementor/widgets/theme-widgets/categories.php:753
-#: includes/elementor/widgets/theme-widgets/menu.php:506
-#: includes/elementor/widgets/theme-widgets/menu.php:620
-#: includes/elementor/widgets/theme-widgets/menu.php:734
-msgid "Dotted"
-msgstr ""
-
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:658
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:754
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:507
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:621
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:735
-#: includes/elementor/widgets/theme-widgets/categories.php:658
-#: includes/elementor/widgets/theme-widgets/categories.php:754
-#: includes/elementor/widgets/theme-widgets/menu.php:507
-#: includes/elementor/widgets/theme-widgets/menu.php:621
-#: includes/elementor/widgets/theme-widgets/menu.php:735
-msgid "Dashed"
+#: includes/elementor/widgets/theme-widgets/menu.php:503
+#: includes/elementor/widgets/theme-widgets/menu.php:617
+#: includes/elementor/widgets/theme-widgets/menu.php:731
+msgid "Decoration Style"
 msgstr ""
 
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:659
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:755
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:506
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:620
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:734
+#: includes/elementor/widgets/theme-widgets/categories.php:659
+#: includes/elementor/widgets/theme-widgets/categories.php:755
+#: includes/elementor/widgets/theme-widgets/menu.php:506
+#: includes/elementor/widgets/theme-widgets/menu.php:620
+#: includes/elementor/widgets/theme-widgets/menu.php:734
+msgid "Solid"
+msgstr ""
+
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:660
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:756
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:507
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:621
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:735
+#: includes/elementor/widgets/theme-widgets/categories.php:660
+#: includes/elementor/widgets/theme-widgets/categories.php:756
+#: includes/elementor/widgets/theme-widgets/menu.php:507
+#: includes/elementor/widgets/theme-widgets/menu.php:621
+#: includes/elementor/widgets/theme-widgets/menu.php:735
+msgid "Double"
+msgstr ""
+
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:661
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:757
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:508
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:622
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:736
-#: includes/elementor/widgets/theme-widgets/categories.php:659
-#: includes/elementor/widgets/theme-widgets/categories.php:755
+#: includes/elementor/widgets/theme-widgets/categories.php:661
+#: includes/elementor/widgets/theme-widgets/categories.php:757
 #: includes/elementor/widgets/theme-widgets/menu.php:508
 #: includes/elementor/widgets/theme-widgets/menu.php:622
 #: includes/elementor/widgets/theme-widgets/menu.php:736
+msgid "Dotted"
+msgstr ""
+
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:662
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:758
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:509
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:623
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:737
+#: includes/elementor/widgets/theme-widgets/categories.php:662
+#: includes/elementor/widgets/theme-widgets/categories.php:758
+#: includes/elementor/widgets/theme-widgets/menu.php:509
+#: includes/elementor/widgets/theme-widgets/menu.php:623
+#: includes/elementor/widgets/theme-widgets/menu.php:737
+msgid "Dashed"
+msgstr ""
+
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:663
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:759
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:510
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:624
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:738
+#: includes/elementor/widgets/theme-widgets/categories.php:663
+#: includes/elementor/widgets/theme-widgets/categories.php:759
+#: includes/elementor/widgets/theme-widgets/menu.php:510
+#: includes/elementor/widgets/theme-widgets/menu.php:624
+#: includes/elementor/widgets/theme-widgets/menu.php:738
 msgid "Wavy"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:792
-#: includes/elementor/widgets/theme-widgets/categories.php:792
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:796
+#: includes/elementor/widgets/theme-widgets/categories.php:796
 msgid "Menu Item Margin"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:804
-#: includes/elementor/widgets/theme-widgets/categories.php:804
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:808
+#: includes/elementor/widgets/theme-widgets/categories.php:808
 msgid "Menu Item Padding"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:816
-#: includes/elementor/widgets/theme-widgets/categories.php:816
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:820
+#: includes/elementor/widgets/theme-widgets/categories.php:820
 msgid "Icon Menu Item Padding"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:838
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:823
-#: includes/elementor/widgets/theme-widgets/categories.php:838
-#: includes/elementor/widgets/theme-widgets/menu.php:823
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:842
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:825
+#: includes/elementor/widgets/theme-widgets/categories.php:842
+#: includes/elementor/widgets/theme-widgets/menu.php:825
 msgid "Toggle Size"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:889
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:843
-#: includes/elementor/widgets/theme-widgets/categories.php:889
-#: includes/elementor/widgets/theme-widgets/menu.php:843
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:893
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:845
+#: includes/elementor/widgets/theme-widgets/categories.php:893
+#: includes/elementor/widgets/theme-widgets/menu.php:845
 msgid "Toggle Background"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:898
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:852
-#: includes/elementor/widgets/theme-widgets/categories.php:898
-#: includes/elementor/widgets/theme-widgets/menu.php:852
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:902
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:854
+#: includes/elementor/widgets/theme-widgets/categories.php:902
+#: includes/elementor/widgets/theme-widgets/menu.php:854
 msgid "Toggle Button Color "
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:910
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:864
-#: includes/elementor/widgets/theme-widgets/categories.php:910
-#: includes/elementor/widgets/theme-widgets/menu.php:864
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:914
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:866
+#: includes/elementor/widgets/theme-widgets/categories.php:914
+#: includes/elementor/widgets/theme-widgets/menu.php:866
 msgid "Toggle Padding"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:922
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:876
-#: includes/elementor/widgets/theme-widgets/categories.php:922
-#: includes/elementor/widgets/theme-widgets/menu.php:876
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:926
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:878
+#: includes/elementor/widgets/theme-widgets/categories.php:926
+#: includes/elementor/widgets/theme-widgets/menu.php:878
 msgid "Toggle Margin"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:943
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:897
-#: includes/elementor/widgets/theme-widgets/categories.php:943
-#: includes/elementor/widgets/theme-widgets/menu.php:897
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:947
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:899
+#: includes/elementor/widgets/theme-widgets/categories.php:947
+#: includes/elementor/widgets/theme-widgets/menu.php:899
 msgid "Toggle Border Radius"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:968
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:922
-#: includes/elementor/widgets/theme-widgets/categories.php:968
-#: includes/elementor/widgets/theme-widgets/menu.php:922
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:972
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:924
+#: includes/elementor/widgets/theme-widgets/categories.php:972
+#: includes/elementor/widgets/theme-widgets/menu.php:924
 msgid "There are no menus in your site."
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:997
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:1052
-#: includes/elementor/widgets/theme-widgets/categories.php:997
-#: includes/elementor/widgets/theme-widgets/categories.php:1052
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:1001
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/categories.php:1056
+#: includes/elementor/widgets/theme-widgets/categories.php:1001
+#: includes/elementor/widgets/theme-widgets/categories.php:1056
 msgid "All Categories"
 msgstr ""
 
@@ -7143,13 +7147,13 @@ msgstr ""
 msgid "Menu Padding"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:798
-#: includes/elementor/widgets/theme-widgets/menu.php:798
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:800
+#: includes/elementor/widgets/theme-widgets/menu.php:800
 msgid "Icon Padding"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:975
-#: includes/elementor/widgets/theme-widgets/menu.php:975
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:977
+#: includes/elementor/widgets/theme-widgets/menu.php:977
 msgid "Navigation"
 msgstr ""
 
@@ -7295,13 +7299,13 @@ msgstr ""
 msgid "Search Icon color "
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1001
-#: includes/elementor/widgets/theme-widgets/search.php:1001
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1003
+#: includes/elementor/widgets/theme-widgets/search.php:1003
 msgid "Search Icon Background"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1213
-#: includes/elementor/widgets/theme-widgets/search.php:1213
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:1215
+#: includes/elementor/widgets/theme-widgets/search.php:1215
 msgid "Form Transition (ms)"
 msgstr ""
 
@@ -7365,71 +7369,71 @@ msgstr ""
 msgid "Select Typography"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:290
-#: includes/elementor/widgets/theme-widgets/select.php:290
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:292
+#: includes/elementor/widgets/theme-widgets/select.php:292
 msgid "Item Padding"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:302
-#: includes/elementor/widgets/theme-widgets/select.php:302
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:304
+#: includes/elementor/widgets/theme-widgets/select.php:304
 msgid "icon Padding"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:323
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:355
-#: includes/elementor/widgets/theme-widgets/select.php:323
-#: includes/elementor/widgets/theme-widgets/select.php:355
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:325
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:357
+#: includes/elementor/widgets/theme-widgets/select.php:325
+#: includes/elementor/widgets/theme-widgets/select.php:357
 msgid "Current Item Color "
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:400
-#: includes/elementor/widgets/theme-widgets/select.php:400
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:402
+#: includes/elementor/widgets/theme-widgets/select.php:402
 msgid "Select Border Options"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:410
-#: includes/elementor/widgets/theme-widgets/select.php:410
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:412
+#: includes/elementor/widgets/theme-widgets/select.php:412
 msgid "Select Border"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:419
-#: includes/elementor/widgets/theme-widgets/select.php:419
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:421
+#: includes/elementor/widgets/theme-widgets/select.php:421
 msgid "Select Border Radius"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:431
-#: includes/elementor/widgets/theme-widgets/select.php:431
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:433
+#: includes/elementor/widgets/theme-widgets/select.php:433
 msgid "Dropdown Border Options"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:441
-#: includes/elementor/widgets/theme-widgets/select.php:441
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:443
+#: includes/elementor/widgets/theme-widgets/select.php:443
 msgid "Select List Border"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:450
-#: includes/elementor/widgets/theme-widgets/select.php:450
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:452
+#: includes/elementor/widgets/theme-widgets/select.php:452
 msgid "Dropdown Border Radius"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:471
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:514
-#: includes/elementor/widgets/theme-widgets/select.php:471
-#: includes/elementor/widgets/theme-widgets/select.php:514
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:473
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:516
+#: includes/elementor/widgets/theme-widgets/select.php:473
+#: includes/elementor/widgets/theme-widgets/select.php:516
 msgid "Icon Color "
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:483
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:526
-#: includes/elementor/widgets/theme-widgets/select.php:483
-#: includes/elementor/widgets/theme-widgets/select.php:526
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:485
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:528
+#: includes/elementor/widgets/theme-widgets/select.php:485
+#: includes/elementor/widgets/theme-widgets/select.php:528
 msgid "Title Color "
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:496
-#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:539
-#: includes/elementor/widgets/theme-widgets/select.php:496
-#: includes/elementor/widgets/theme-widgets/select.php:539
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:498
+#: build/kitestudio-core/includes/elementor/widgets/theme-widgets/select.php:541
+#: includes/elementor/widgets/theme-widgets/select.php:498
+#: includes/elementor/widgets/theme-widgets/select.php:541
 msgid "Item Background"
 msgstr ""
 
@@ -7476,9 +7480,9 @@ msgid "Title Font Size"
 msgstr ""
 
 #: build/kitestudio-core/includes/elementor/widgets/title.php:157
-#: build/kitestudio-core/includes/elementor/widgets/title.php:251
+#: build/kitestudio-core/includes/elementor/widgets/title.php:253
 #: includes/elementor/widgets/title.php:157
-#: includes/elementor/widgets/title.php:251
+#: includes/elementor/widgets/title.php:253
 msgid "Title Background Style"
 msgstr ""
 
@@ -7512,53 +7516,53 @@ msgstr ""
 msgid "Background Title Typography"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/title.php:218
-#: includes/elementor/widgets/title.php:218
+#: build/kitestudio-core/includes/elementor/widgets/title.php:220
+#: includes/elementor/widgets/title.php:220
 msgid "Background title color "
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/title.php:240
-#: includes/elementor/widgets/title.php:240
+#: build/kitestudio-core/includes/elementor/widgets/title.php:242
+#: includes/elementor/widgets/title.php:242
 msgid "Background icon color "
-msgstr ""
-
-#: build/kitestudio-core/includes/elementor/widgets/title.php:254
-#: includes/elementor/widgets/title.php:254
-msgid "Line"
-msgstr ""
-
-#: build/kitestudio-core/includes/elementor/widgets/title.php:255
-#: includes/elementor/widgets/title.php:255
-msgid "Circle"
 msgstr ""
 
 #: build/kitestudio-core/includes/elementor/widgets/title.php:256
 #: includes/elementor/widgets/title.php:256
-msgid "Square"
+msgid "Line"
 msgstr ""
 
 #: build/kitestudio-core/includes/elementor/widgets/title.php:257
 #: includes/elementor/widgets/title.php:257
-msgid "Rotated Square"
+msgid "Circle"
 msgstr ""
 
 #: build/kitestudio-core/includes/elementor/widgets/title.php:258
 #: includes/elementor/widgets/title.php:258
+msgid "Square"
+msgstr ""
+
+#: build/kitestudio-core/includes/elementor/widgets/title.php:259
+#: includes/elementor/widgets/title.php:259
+msgid "Rotated Square"
+msgstr ""
+
+#: build/kitestudio-core/includes/elementor/widgets/title.php:260
+#: includes/elementor/widgets/title.php:260
 msgid "Triangle"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/title.php:269
-#: includes/elementor/widgets/title.php:269
+#: build/kitestudio-core/includes/elementor/widgets/title.php:271
+#: includes/elementor/widgets/title.php:271
 msgid "Hover line color "
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/title.php:280
-#: includes/elementor/widgets/title.php:280
+#: build/kitestudio-core/includes/elementor/widgets/title.php:282
+#: includes/elementor/widgets/title.php:282
 msgid "Shape border color"
 msgstr ""
 
-#: build/kitestudio-core/includes/elementor/widgets/title.php:291
-#: includes/elementor/widgets/title.php:291
+#: build/kitestudio-core/includes/elementor/widgets/title.php:293
+#: includes/elementor/widgets/title.php:293
 msgid "Shape fill color"
 msgstr ""
 

@@ -205,7 +205,12 @@ if ( ! function_exists( 'kite_fetch_woocommerce_shortcode_dom' ) ) {
 		$atts = array();
 		if ( is_array( $_GET['atts'] ) ) {
 			foreach ( $_GET['atts'] as $key => $value ) {
-				$atts[ $key ] = !is_array( $value ) ? sanitize_text_field( $value ) : $value;
+				if ( ! is_array( $value ) ) {
+					if ( $key == 'category' || $key == 'tag' ) {
+						$value = urldecode( $value );
+					}
+					$atts[ $key ] = sanitize_text_field( $value );
+				}
 			}
 		} else {
 			$atts = sanitize_text_field( $_GET['atts'] );

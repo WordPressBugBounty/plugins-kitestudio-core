@@ -10,12 +10,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-10-25T19:29:30+00:00\n"
-"PO-Revision-Date: 2024-05-08 04:06+0000\n"
+"PO-Revision-Date: 2024-11-14 16:45+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: kitestudio-core\n"
 "Language: fa_IR\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Loco-Version: 2.6.7; wp-6.5.2"
+"X-Loco-Version: 2.6.7; wp-6.5.5"
 
 #: build/kitestudio-core/includes/classes/class-kt-core-dashboard.php:55
 #: includes/classes/class-kt-core-dashboard.php:55
@@ -538,7 +538,7 @@ msgstr "وبسرویس"
 #: build/kitestudio-core/includes/elementor/widgets/testimonial.php:138
 #: includes/elementor/widgets/testimonial.php:138
 msgid "Arrow Navigation"
-msgstr "پیکان ناوبری"
+msgstr "پیکان جا به جایی"
 
 #: build/kitestudio-core/includes/elementor/widgets/ajax-woocommerce-products.php:433
 #: build/kitestudio-core/includes/elementor/widgets/product-categories.php:169
@@ -5292,7 +5292,7 @@ msgstr "تایپوگرافی نام"
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/menu.php:975
 #: includes/elementor/widgets/theme-widgets/menu.php:975
 msgid "Navigation"
-msgstr "ناوبری"
+msgstr "منو"
 
 #: build/kitestudio-core/includes/elementor/widgets/image-carousel.php:140
 #: build/kitestudio-core/includes/elementor/widgets/instagram-feed.php:259
@@ -5306,18 +5306,18 @@ msgstr "قابلیت مشاهده دکمه های ناوبری"
 #: includes/elementor/widgets/image-carousel.php:152
 #: includes/widgets/widget-instagram.php:219
 msgid "Navigation Style"
-msgstr "استایل ناوبری"
+msgstr "استایل جا به جا یی"
 
 #: build/kitestudio-core/includes/post-types/page.php:220
 #: build/kitestudio-core/includes/post-types/page.php:468
 #: includes/post-types/page.php:220 includes/post-types/page.php:468
 msgid "Navigation style"
-msgstr "استایل ناوبری"
+msgstr "استایل جا به جا یی"
 
 #: build/kitestudio-core/includes/post-types/page.php:469
 #: includes/post-types/page.php:469
 msgid "Navigation style(Dark/Light)"
-msgstr "استایل ناوبری (روشن/تیره)"
+msgstr "استایل جا به جایی (روشن/تیره)"
 
 #: build/kitestudio-core/includes/elementor/widgets/ajax-woocommerce-products.php:757
 #: build/kitestudio-core/includes/elementor/widgets/instagram-feed.php:275
@@ -5332,7 +5332,7 @@ msgstr "استایل ناوبری (روشن/تیره)"
 #: includes/elementor/widgets/woocommerce-handpicked-products.php:460
 #: includes/elementor/widgets/woocommerce-products.php:523
 msgid "Navigations Style"
-msgstr "استایل ناوبری ها"
+msgstr "استایل جا به جایی"
 
 #: build/kitestudio-core/includes/elements/shortcodes/blog.php:509
 #: includes/elements/shortcodes/blog.php:509
@@ -6559,7 +6559,7 @@ msgstr "بزرگ شده"
 #: build/kitestudio-core/includes/elementor/widgets/testimonial.php:162
 #: includes/elementor/widgets/testimonial.php:162
 msgid "Scroll Navigation"
-msgstr "ناوبری پیمایش"
+msgstr "جا به جایی با اسکرول"
 
 #: build/kitestudio-core/includes/elementor/widgets/theme-widgets/search.php:125
 #: includes/elementor/widgets/theme-widgets/search.php:125

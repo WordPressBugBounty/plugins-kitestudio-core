@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 use Elementor\Widget_Base;
 use Elementor\Controls_Manager;
 use Elementor\Group_Control_Typography;
-use Elementor\Core\Schemes\Typography;
+use Elementor\Core\Kits\Documents\Tabs\Global_Typography;
 use Elementor\Group_Control_Border;
 use Elementor\Group_Control_Background;
 use Elementor\Group_Control_Box_Shadow;
@@ -693,7 +693,9 @@ class Wishlist extends Widget_Base {
 			array(
 				'name'     => 'subtitle_typography',
 				'label'    => __( 'Subtitle Typography', 'kitestudio-core' ),
-				'scheme'   => Typography::TYPOGRAPHY_1,
+				'global'   => [
+					'default' => Global_Typography::TYPOGRAPHY_PRIMARY ?? '',
+				],
 				'selector' => '{{WRAPPER}} .kt-header-button .kt-icon-container .kt-subtitle',
 			)
 		);
@@ -703,7 +705,9 @@ class Wishlist extends Widget_Base {
 			array(
 				'name'     => 'badge_typography',
 				'label'    => __( 'Badge Typography', 'kitestudio-core' ),
-				'scheme'   => Typography::TYPOGRAPHY_1,
+				'global'   => [
+					'default' => Global_Typography::TYPOGRAPHY_PRIMARY ?? '',
+				],
 				'selector' => '{{WRAPPER}} .kt-header-button .kt-icon-container .kt-badge',
 			)
 		);
@@ -759,7 +763,9 @@ class Wishlist extends Widget_Base {
 			array(
 				'name'     => 'title_typography',
 				'label'    => __( 'Title Typography', 'kitestudio-core' ),
-				'scheme'   => Typography::TYPOGRAPHY_1,
+				'global'   => [
+					'default' => Global_Typography::TYPOGRAPHY_PRIMARY ?? '',
+				],
 				'selector' => '{{WRAPPER}} .kt-header-button .kt-meta-texts .kt-title',
 			)
 		);
@@ -784,7 +790,9 @@ class Wishlist extends Widget_Base {
 			array(
 				'name'      => 'total_items_typography',
 				'label'     => __( 'Total Items Typography', 'kitestudio-core' ),
-				'scheme'    => Typography::TYPOGRAPHY_1,
+				'global'   => [
+					'default' => Global_Typography::TYPOGRAPHY_PRIMARY ?? '',
+				],
 				'selector'  => '{{WRAPPER}} .kt-header-button .kt-meta-texts .kt-total-items',
 				'condition' => array(
 					'show_items_number_badge!' => 'yes',

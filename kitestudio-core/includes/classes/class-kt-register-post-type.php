@@ -7,7 +7,7 @@ abstract class Kite_Post_Type {
 
 		$this->post_type = $post_type;
 
-		add_action( 'after_setup_theme', array( &$this, 'kite_create_post_type' ), 0 );
+		add_action( 'init', array( &$this, 'kite_create_post_type' ), 0 );
 
 		add_action( 'add_meta_boxes', array( &$this, 'kite_add_meta_boxes' ) );
 		add_action( 'admin_print_scripts-post-new.php', array( &$this, 'kite_init_scripts' ) );

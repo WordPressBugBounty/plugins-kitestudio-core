@@ -93,9 +93,11 @@ class Updater {
 						'body'   => $json,
 					);
 				} else {
+					$responseBody = json_decode( $response['body'], true );
+					$message = $responseBody['message'] ?? $response['response']['message'];
 					$json = array(
 						'status'  => false,
-						'message' => $response['response']['message'] . '. Error Code : ' . $response['response']['code'],
+						'message' => $message. '. Error Code : ' . $response['response']['code'],
 					);
 				}
 			} else {

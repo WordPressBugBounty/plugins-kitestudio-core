@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 use Elementor\Widget_Base;
 use Elementor\Controls_Manager;
 use Elementor\Group_Control_Typography;
-use Elementor\Core\Schemes\Typography;
+use Elementor\Core\Kits\Documents\Tabs\Global_Typography;
 use Elementor\Group_Control_Border;
 use Elementor\Group_Control_Background;
 use Elementor\Group_Control_Box_Shadow;
@@ -967,7 +967,9 @@ class Search extends Widget_Base {
 			array(
 				'name'      => 'subtitle_typography',
 				'label'     => __( 'Subtitle Typography', 'kitestudio-core' ),
-				'scheme'    => Typography::TYPOGRAPHY_1,
+				'global'   => [
+					'default' => Global_Typography::TYPOGRAPHY_PRIMARY ?? '',
+				],
 				'selector'  => '{{WRAPPER}} .kt-header-button .kt-icon-container .kt-subtitle',
 				'seperator' => 'before',
 			)
@@ -1268,7 +1270,9 @@ class Search extends Widget_Base {
 			array(
 				'name'     => 'title_typography',
 				'label'    => __( 'Title Typography', 'kitestudio-core' ),
-				'scheme'   => Typography::TYPOGRAPHY_1,
+				'global'   => [
+					'default' => Global_Typography::TYPOGRAPHY_PRIMARY ?? '',
+				],
 				'selector' => '{{WRAPPER}} .kt-header-button .kt-meta-texts .kt-title',
 			)
 		);

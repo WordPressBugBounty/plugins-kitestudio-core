@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 use Elementor\Widget_Base;
 use Elementor\Controls_Manager;
 use Elementor\Group_Control_Typography;
-use Elementor\Core\Schemes\Typography;
+use Elementor\Core\Kits\Documents\Tabs\Global_Typography;
 use Elementor\Group_Control_Border;
 use Elementor\Group_Control_Background;
 
@@ -279,7 +279,9 @@ class Select extends Widget_Base {
 			array(
 				'name'     => 'select_typography',
 				'label'    => __( 'Select Typography', 'kitestudio-core' ),
-				'scheme'   => Typography::TYPOGRAPHY_1,
+				'global'   => [
+					'default' => Global_Typography::TYPOGRAPHY_PRIMARY ?? '',
+				],
 				'selector' => '{{WRAPPER}} .current, {{WRAPPER}} ul li',
 			)
 		);
