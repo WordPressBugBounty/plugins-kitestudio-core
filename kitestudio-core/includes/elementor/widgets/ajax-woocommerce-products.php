@@ -1554,8 +1554,8 @@ class Kite_Ajax_Woocommerce_Products_Widget extends \Elementor\Widget_Base {
 			'alignment' =>  $settings['alignment'] ?? 'center' ,
 			'style' =>  $settings['style']  ,
 			'shape' =>  $settings['shape']  ,
-			'active_tab_color' =>  $settings['active_tab_color']  ,
-			'deactive_tab_color' =>  $settings['deactive_tab_color']  ,
+			'active_tab_color' =>  $settings['active_tab_color'] ?? "" ,
+			'deactive_tab_color' =>  $settings['deactive_tab_color'] ?? "" ,
 		];
 		echo kite_ajax_products_tab( $atts, $product_tab_shortcode );
 	}
@@ -1572,25 +1572,6 @@ class Kite_Ajax_Woocommerce_Products_Widget extends \Elementor\Widget_Base {
 	 */
 	public function is_reload_preview_required() {
 		return true;
-	}
-
-	/**
-	 * Render shortcode widget as plain content.
-	 *
-	 * Override the default behavior by printing the shortcode instead of rendering it.
-	 *
-	 * @since 1.0.0
-	 * @access public
-	 */
-	public function render_plain_content() {
-		// In plain mode, render without shortcode
-		$settings              = $this->get_settings_for_display();
-		$product_tab_shortcode = '';
-		foreach ( $settings['product_tabs'] as $product_tab ) {
-			$product_tab_shortcode .= $this->kite_generate_product_shortcode( $product_tab, $settings );
-		}
-		$alignment = $settings['alignment'] ?? 'center';
-		echo '[ajax_products_tab heading_title="' . esc_attr( $settings['heading_title'] ) . '" heading_subtitle="' . esc_attr( $settings['heading_subtitle'] ) . '" position="' . esc_attr( $settings['position'] ) . '" alignment="' . esc_attr( $alignment ) . '" style="' . esc_attr( $settings['style'] ) . '" shape="' . esc_attr( $settings['shape'] ) . '" active_tab_color="' . esc_attr( $settings['active_tab_color'] ) . '" deactive_tab_color="' . esc_attr( $settings['deactive_tab_color'] ) . '"]' . $product_tab_shortcode . '[/ajax_products_tab]';
 	}
 
 	public function kite_generate_product_shortcode( $settings, $parent_shortcode_settings, $return_args = false ) {

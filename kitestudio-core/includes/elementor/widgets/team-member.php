@@ -404,65 +404,6 @@ class Kite_Team_Member_Widget extends \Elementor\Widget_Base {
 		return false;
 	}
 
-	/**
-	 * Render shortcode widget as plain content.
-	 *
-	 * Override the default behavior by printing the shortcode instead of rendering it.
-	 *
-	 * @since 1.0.0
-	 * @access public
-	 */
-	public function render_plain_content() {
-		// In plain mode, render without shortcode
-		$settings = $this->get_settings_for_display();
-		if ( $settings['team_icon1_url']['is_external'] ) {
-			$target1 = '_blank';
-		} else {
-			$target1 = '_self';
-		}
-
-		if ( $settings['team_icon2_url']['is_external'] ) {
-			$target2 = '_blank';
-		} else {
-			$target2 = '_self';
-		}
-
-		if ( $settings['team_icon3_url']['is_external'] ) {
-			$target3 = '_blank';
-		} else {
-			$target3 = '_self';
-		}
-
-		if ( $settings['team_icon4_url']['is_external'] ) {
-			$target4 = '_blank';
-		} else {
-			$target4 = '_self';
-		}
-
-		if ( $settings['team_icon5_url']['is_external'] ) {
-			$target5 = '_blank';
-		} else {
-			$target5 = '_self';
-		}
-
-		for ( $i = 1; $i < 6; $i++ ) {
-
-			// Check if its already migrated
-			$migrated = isset( $settings['__fa4_migrated'][ 'team_new_icon' . $i ] );
-			// Check if its a new widget without previously selected icon using the old Icon control
-			$is_new = empty( $settings[ 'team_icon' . $i ] );
-			if ( $is_new || $migrated ) {
-				${ 'team_icon' . $i } = $settings[ 'team_new_icon' . $i ]['library'] == 'svg' ? '' : $settings[ 'team_new_icon' . $i ]['value'];
-			} elseif ( isset( $settings[ 'team_icon' . $i ]['value'] ) ) {
-				${ 'team_icon' . $i } = $settings[ 'team_icon' . $i ]['library'] == 'svg' ? '' : $settings[ 'team_icon' . $i ]['value'];
-			} else {
-				${ 'team_icon' . $i } = $settings[ 'team_icon' . $i ];
-			}
-		}
-
-		echo '[team_member url="' . esc_attr( $settings['url']['url'] ) . '" new_tab="' . esc_attr( $settings['url']['is_external'] ) . '" elementor_url_title="' . esc_attr( $settings['elementor_url_title'] ) . '" description="' . esc_attr( $settings['description'] ) . '" name="' . esc_attr( $settings['name'] ) . '" job_title="' . esc_attr( $settings['job_title'] ) . '" style="' . esc_attr( $settings['style'] ) . '" image="' . esc_attr( $settings['image']['url'] ) . '" signature="' . esc_attr( $settings['signature']['url'] ) . '" team_color="' . esc_attr( $settings['team_color'] ) . '" team_color_preset="custom" team_icon1="' . esc_attr( $team_icon1  ) . '" team_icon_url1="' . esc_attr( $settings['team_icon1_url']['url'] ) . '" team_icon_target1="' . esc_attr( $target1  ) . '" team_icon2="' . esc_attr( $team_icon2  ) . '" team_icon_url2="' . esc_attr( $settings['team_icon2_url']['url'] ) . '" team_icon_target2="' . esc_attr( $target2  ) . '" team_icon3="' . esc_attr( $team_icon3  ) . '" team_icon_url3="' . esc_attr( $settings['team_icon3_url']['url'] ) . '" team_icon_target3="' . esc_attr( $target3  ) . '" team_icon4="' . esc_attr( $team_icon4  ) . '" team_icon_url4="' . esc_attr( $settings['team_icon4_url']['url'] ) . '" team_icon_target4="' . esc_attr( $target4  ) . '" team_icon5="' . esc_attr( $team_icon5  ) . '" team_icon_url5="' . esc_attr( $settings['team_icon5_url']['url'] ) . '" team_icon_target5="' . esc_attr( $target5  ) . '"]';
-	}
-
 	protected function content_template() {
 		?>
 		<# view.addRenderAttribute('team-member-container','class','team-member '+settings.style); #>

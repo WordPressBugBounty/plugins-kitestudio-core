@@ -463,26 +463,6 @@ class Kite_Blog_Widget extends \Elementor\Widget_Base {
 		return false;
 	}
 
-	/**
-	 * Render shortcode widget as plain content.
-	 *
-	 * Override the default behavior by printing the shortcode instead of rendering it.
-	 *
-	 * @since 1.0.0
-	 * @access public
-	 */
-	public function render_plain_content() {
-		// In plain mode, render without shortcode
-		$settings = $this->get_settings_for_display();
-		if ( is_array( $settings['blog_category'] ) ) {
-			$blog_category = implode( ',', $settings['blog_category'] );
-		} else {
-			$blog_category = $settings['blog_category'];
-		}
-		echo '[kt_masonry_blog blog_column="' . esc_attr( $settings['blog_column'] ) . '" blog_filter="' . esc_attr( $settings['blog_filter'] ) . '" blog_category="' . esc_attr( $blog_category ) . '" blog_style="' . esc_attr( $settings['blog_style'] ) . '" blog_layout_mode="' . esc_attr( $settings['blog_layout_mode'] ) . '" blog_image_size="' . esc_attr( $settings['blog_image_size'] ) . '" blog_post_number="' . esc_attr( $settings['blog_post_number']['size'] ) . '" blog_category_author="' . esc_attr( $settings['blog_category_author'] ) . '" blog_category_visibility="' . esc_attr( $settings['blog_category_visibility'] ) . '" blog_foreground_color="' . esc_attr( $settings['blog_foreground_color'] ) . '" blog_more_button="' . esc_attr( $settings['blog_more_button'] ) . '" load_more_style="' . esc_attr( $settings['load_more_style'] ) . '" blog_background_color="' . esc_attr( $settings['blog_background_color'] ) . '" quote_blog_background_color="' . esc_attr( $settings['quote_blog_background_color'] ) . '" quote_blog_text_color="' . esc_attr( $settings['quote_blog_text_color'] ) . '" blog_multimedia_icon_style="' . esc_attr( $settings['blog_multimedia_icon_style'] ) . '" enterance_animation="' . esc_attr( $settings['enterance_animation'] ) . '" responsive_animation="' . esc_attr( $settings['responsive_animation'] ) . '"]';
-
-	}
-
 	protected function content_template() {
 
 	}

@@ -649,18 +649,6 @@ class Account extends Widget_Base {
 		return false;
 	}
 
-	/**
-	 * Render shortcode widget as plain content.
-	 *
-	 * Override the default behavior by printing the shortcode instead of rendering it.
-	 *
-	 * @since 1.0.0
-	 * @access public
-	 */
-	public function render_plain_content() {
-
-	}
-
 	protected function content_template() {
 		?>
 		<div class="kt-header-button kt-account">

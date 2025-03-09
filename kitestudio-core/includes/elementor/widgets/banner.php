@@ -534,16 +534,16 @@ class Kite_Banner_Widget extends \Elementor\Widget_Base {
 		$atts = [
 			'image_url' =>  $settings['image_url']['id']  ,
 			'heading' => $settings['heading'] ,
-			'heading_color' =>  $settings['heading_color']  ,
+			'heading_color' =>  $settings['heading_color'] ?? "" ,
 			'title' =>  $settings['title']  ,
-			'title_color' =>  $settings['title_color']  ,
+			'title_color' =>  $settings['title_color'] ?? "",
 			'subtitle' => $settings['subtitle'],
 			'subtitle_color' =>  $settings['subtitle_color'] ?? '' ,
 			'alignment' =>  $settings['alignment']  ,
 			'url' =>  $settings['url']['url']  ,
 			'new_tab' =>  $settings['url']['is_external']  ,
 			'url_title' => $settings['url_title'],
-			'link_color' =>  $settings['link_color']  ,
+			'link_color' =>  $settings['link_color'] ?? "" ,
 			'link_bg_color' =>  $settings['link_bg_color'] ?? '' ,
 			'button_style' =>  $settings['button_style']  ,
 			'show_button' =>  $settings['show_button']  ,
@@ -597,38 +597,6 @@ class Kite_Banner_Widget extends \Elementor\Widget_Base {
 	 */
 	public function is_reload_preview_required() {
 		return false;
-	}
-
-	/**
-	 * Render shortcode widget as plain content.
-	 *
-	 * Override the default behavior by printing the shortcode instead of rendering it.
-	 *
-	 * @since 1.0.0
-	 * @access public
-	 */
-	public function render_plain_content() {
-		// In plain mode, render without shortcode
-		$settings = $this->get_settings_for_display();
-		if ( $settings['image_size'] == 'custom' ) {
-			$image_size = 'image_size="custom" image_size_width="' . esc_attr( $settings['image_size_width'] ) . '" image_size_height="' . esc_attr( $settings['image_size_height'] ) . '" image_size_crop="' . esc_attr( $settings['image_size_crop'] ) . '"';
-		} else {
-			$image_size = 'image_size="' . esc_attr( $settings['image_size'] ) . '"';
-		}
-
-		if ( $settings['hover'] == 'enable' ) {
-			$hover = 'hover="enable" hover_color_preset="custom" hover_color="' . esc_attr( $settings['hover_color'] ) . '" hover_zoom="' . esc_attr( $settings['hover_zoom'] ) . '"';
-		} else {
-			$hover = 'hover="disable"';
-		}
-
-		if ( $settings['badge'] == 'enable' ) {
-			$badge = 'badge="enable" badge_content="' . esc_attr( $settings['badge_content'] ) . '" badge_bg_color="' . esc_attr( $settings['badge_bg_color'] ) . '" badge_content_color="' . esc_attr( $settings['badge_content_color'] ) . '" badge_position="' . esc_attr( $settings['badge_position'] ) . '"';
-		} else {
-			$badge = 'badge="disable"';
-		}
-		echo '[banner image_url="' . esc_attr( $settings['image_url']['id'] ) . '" ' . esc_html( $image_size ) . ' heading="' . wp_kses_post( $settings['heading'] ) . '" heading_color="' . esc_attr( $settings['heading_color'] ) . '" title="' . esc_attr( $settings['title'] ) . '" title_color="' . esc_attr( $settings['title_color'] ) . '" subtitle="' . wp_kses_post( $settings['subtitle'] ) . '" subtitle_color="' . esc_attr( $settings['subtitle_color'] ) . '" alignment="' . esc_attr( $settings['alignment'] ) . '" ' . esc_html( $hover ) . ' url="' . esc_attr( $settings['url']['url'] ) . '" new_tab="' . esc_attr( $settings['url']['is_external'] ) . '" url_title="' . wp_kses_post( $settings['url_title'] ) . '" link_color="' . esc_attr( $settings['link_color'] ) . '" link_bg_color="' . esc_attr( $settings['link_bg_color'] ) . '" button_style="' . esc_attr( $settings['button_style'] ) . '" show_button="' . esc_attr( $settings['show_button'] ) . '" size="' . esc_attr( $settings['size'] ) . '" ' . esc_html( $badge ) . ' heading_size="custom" title_size="custom" subtitle_size="custom" link_size="custom"]';
-
 	}
 
 	protected function content_template() {

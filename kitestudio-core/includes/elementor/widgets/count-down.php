@@ -226,7 +226,7 @@ class Kite_Count_Down_Widget extends \Elementor\Widget_Base {
 		$atts = [
 			'end_date' =>  $end_date  ,
 			'style' =>  $settings['style']  ,
-			'alignment' =>  is_array( $settings['alignment'] ) || empty( $settings['alignment']) ? '' : $settings['alignment'] ,
+			'alignment' => empty( $settings['alignment'] ) || is_array( $settings['alignment'] ) ? '' : $settings['alignment'] ,
 			'fontsize' =>  $settings['fontsize']  ,
 		];
 		echo kite_sc_countdown( $atts );
@@ -244,23 +244,6 @@ class Kite_Count_Down_Widget extends \Elementor\Widget_Base {
 	 */
 	public function is_reload_preview_required() {
 		return false;
-	}
-
-	/**
-	 * Render shortcode widget as plain content.
-	 *
-	 * Override the default behavior by printing the shortcode instead of rendering it.
-	 *
-	 * @since 1.0.0
-	 * @access public
-	 */
-	public function render_plain_content() {
-		// In plain mode, render without shortcode
-		$settings = $this->get_settings_for_display();
-		$end_date = date( 'Y-m-d\TH:i:s', strtotime( $settings['end_date'] ) );
-		$alignment = is_array( $settings['alignment'] ) || empty( $settings['alignment']) ? '' : $settings['alignment'];
-		echo '[countdown end_date="' . esc_attr( $end_date ) . '" style="' . esc_attr( $settings['style'] ) . '" alignment="' . esc_attr( $alignment ) . '" fontsize="' . esc_attr( $settings['fontsize'] ) . '"]';
-
 	}
 
 	protected function content_template() {

@@ -308,7 +308,7 @@ class Kite_Image_Carousel_Widget extends \Elementor\Widget_Base {
 			'nav_style' =>  $settings['nav_style']  ,
 			'images' =>  $images_id  ,
 			'hover_color' => 'custom' ,
-			'custom_hover_color' =>  $settings['custom_hover_color']  ,
+			'custom_hover_color' =>  $settings['custom_hover_color'] ?? "" ,
 			'zoom' =>  $settings['zoom']  ,
 			'is_autoplay' =>  $settings['is_autoplay']  ,
 			'enterance_animation' =>  $settings['enterance_animation']  ,
@@ -339,32 +339,6 @@ class Kite_Image_Carousel_Widget extends \Elementor\Widget_Base {
 	 */
 	public function is_reload_preview_required() {
 		return false;
-	}
-
-	/**
-	 * Render shortcode widget as plain content.
-	 *
-	 * Override the default behavior by printing the shortcode instead of rendering it.
-	 *
-	 * @since 1.0.0
-	 * @access public
-	 */
-	public function render_plain_content() {
-		// In plain mode, render without shortcode
-		$settings = $this->get_settings_for_display();
-		if ( $settings['image_size'] == 'custom' ) {
-			$image_size = 'image_size="custom" image_size_width="' . esc_attr( $settings['image_size_width'] ) . '" image_size_height="' . esc_attr( $settings['image_size_height'] ) . '" image_size_crop="' . esc_attr( $settings['image_size_crop'] ) . '"';
-		} else {
-			$image_size = 'image_size="' . esc_attr( $settings['image_size'] ) . '"';
-		}
-
-		$images_id = array();
-		foreach ( $settings['images'] as $image ) {
-			$images_id[] = $image['id'];
-		}
-		$images_id = implode( ',', $images_id );
-		echo '[image_carousel visible_items="' . esc_attr( $settings['visible_items'] ) . '" ' . esc_html( $image_size ) . ' gutter="' . esc_attr( $settings['gutter'] ) . '" naxt_prev_btn="' . esc_attr( $settings['naxt_prev_btn'] ) . '" nav_style="' . esc_attr( $settings['nav_style'] ) . '" images="' . esc_attr( $images_id ) . '" hover_color="custom" custom_hover_color="' . esc_attr( $settings['custom_hover_color'] ) . '" zoom="' . esc_attr( $settings['zoom'] ) . '" is_autoplay="' . esc_attr( $settings['is_autoplay'] ) . '" enterance_animation="' . esc_attr( $settings['enterance_animation'] ) . '" responsive_animation="' . esc_attr( $settings['responsive_animation'] ) . '"]';
-
 	}
 
 	protected function content_template() {

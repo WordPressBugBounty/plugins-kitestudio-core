@@ -615,33 +615,6 @@ class Kite_Product_Categories_Widget extends \Elementor\Widget_Base {
 		return false;
 	}
 
-	/**
-	 * Render shortcode widget as plain content.
-	 *
-	 * Override the default behavior by printing the shortcode instead of rendering it.
-	 *
-	 * @since 1.0.0
-	 * @access public
-	 */
-	public function render_plain_content() {
-		// In plain mode, render without shortcode
-		$settings = $this->get_settings_for_display();
-
-		if ( is_array( $settings['ids'] ) ) {
-			$category = implode( ',', $settings['ids'] );
-		} else {
-			$category = $settings['ids'];
-		}
-
-		if ( $settings['image_size'] == 'custom' ) {
-			$image_size = 'image_size="custom" image_size_width="' . esc_attr( $settings['image_size_width'] ) . '" image_size_height="' . esc_attr( $settings['image_size_height'] ) . '" image_size_crop="' . esc_attr( $settings['image_size_crop'] ) . '"';
-		} else {
-			$image_size = 'image_size="' . esc_attr( $settings['image_size'] ) . '"';
-		}
-		$body_class[] = $settings['carousel_navigation'] == 'on' ? 'carousel-navigation-on' : 'carousel-navigation-off';
-		echo '[product_categories number="' . esc_attr( $settings['number'] ) . '" orderby="' . esc_attr( $settings['orderby'] ) . '" order="' . esc_attr( $settings['order'] ) . '" hide_empty="' . esc_attr( $settings['hide_empty'] ) . '" ids="' . esc_attr( $category ) . '" carousel="' . esc_attr( $settings['carousel'] ) . '" columns="' . esc_attr( $settings['columns'] ) . '" show_image="' . esc_attr( $settings['show_image'] ) . '" ' . esc_html( $image_size ) . ' nav_style="' . esc_attr( $settings['nav_style'] ) . '" is_autoplay="' . esc_attr( $settings['is_autoplay'] ) . '" product-category-styles="' . esc_attr( $settings['product-category-styles'] ) . '" style="' . esc_attr( $settings['style'] ) . '" font_size="custom" custom_hover_color="' . esc_attr( $settings['custom_hover_color'] ) . '" hover_color="custom" hover_text_color="' . esc_attr( $settings['hover_text_color'] ) . '" count="' . esc_attr( $settings['count'] ) . '" description="' . esc_attr( $settings['description'] ) . '" border="' . esc_attr( $settings['border'] ) . '" gutter="' . esc_attr( $settings['gutter'] ) . '" hover_animation="' . esc_attr( $settings['hover_animation'] ) . '" enterance_animation="' . esc_attr( $settings['enterance_animation'] ) . '" responsive_animation="' . esc_attr( $settings['responsive_animation'] ) . '" elementor="elementor" body_class="' . esc_attr( implode( ' ', $body_class ) ) . '"]';
-	}
-
 	protected function content_template() {
 
 	}

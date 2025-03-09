@@ -412,39 +412,6 @@ class Kite_ImageBox_Widget extends \Elementor\Widget_Base {
 		return false;
 	}
 
-	/**
-	 * Render shortcode widget as plain content.
-	 *
-	 * Override the default behavior by printing the shortcode instead of rendering it.
-	 *
-	 * @since 1.0.0
-	 * @access public
-	 */
-	public function render_plain_content() {
-		// In plain mode, render without shortcode
-		$settings = $this->get_settings_for_display();
-		if ( $settings['image_size'] == 'custom' ) {
-			$image_size = 'image_size="custom" image_size_width="' . $settings['image_size_width'] . '" image_size_height="' . $settings['image_size_height'] . '" image_size_crop="' . $settings['image_size_crop'] . '"';
-		} else {
-			$image_size = 'image_size="' . $settings['image_size'] . '"';
-		}
-
-		if ( $settings['imagebox_content_border'] == 'enable' ) {
-			$border = 'imagebox_content_border="enable" image_text_border_color="' . $settings['image_text_border_color'] . '"';
-		} else {
-			$border = 'imagebox_content_border="disable"';
-		}
-
-		if ( ! empty( $settings['url']['url'] ) && $settings['url']['is_external'] ) {
-			$url = 'url="' . $settings['url']['url'] . '" target="_blank"';
-		} else {
-			$url = 'url="' . $settings['url']['url'] . '" target="_self"';
-		}
-
-		echo '[imagebox image_url="' . $settings['image_url']['id'] . '" ' . $image_size . ' image_hover="' . $settings['image_hover'] . '" image_hover_shadow="' . $settings['image_hover_shadow'] . '" image_hover_color_preset="custom" image_hover_color_custom="' . $settings['image_hover_color_custom'] . '" title="' . $settings['title'] . '" title_color="' . $settings['title_color'] . '" subtitle="' . $settings['subtitle'] . '" subtitle_color="' . $settings['subtitle_color'] . '" vccontent="' . $settings['vccontent'] . '" image_text_color="' . $settings['image_text_color'] . '" image_text_align="' . $settings['image_text_align'] . '" image_text_background_color="' . $settings['image_text_background_color'] . '" ' . $border . ' ' . $url . ' image_title_size="custom" content_fontsize="custom" subtitle_fontsize="custom"]';
-
-	}
-
 	protected function content_template() {
 
 	}

@@ -535,38 +535,6 @@ class Kite_Button_Widget extends \Elementor\Widget_Base {
 		return false;
 	}
 
-	/**
-	 * Render shortcode widget as plain content.
-	 *
-	 * Override the default behavior by printing the shortcode instead of rendering it.
-	 *
-	 * @since 1.0.0
-	 * @access public
-	 */
-	public function render_plain_content() {
-		// In plain mode, render without shortcode
-		$settings = $this->get_settings_for_display();
-		if ( empty( $settings['url']['url'] ) ) {
-			$settings['url']['url'] = '#';
-		}
-
-		// Check if its already migrated
-		$migrated = isset( $settings['__fa4_migrated']['button_new_icon'] );
-		// Check if its a new widget without previously selected icon using the old Icon control
-		$is_new = empty( $settings['button_icon'] );
-		if ( $is_new || $migrated ) {
-			$button_icon = $settings['button_new_icon']['library'] == 'svg' ? '' : $settings['button_new_icon']['value'];
-		} elseif ( isset( $settings['button_icon']['value'] ) ) {
-			$button_icon = $settings['button_icon']['library'] == 'svg' ? '' : $settings['button_icon']['value'];
-		} else {
-			$button_icon = $settings['button_icon'];
-		}
-
-		$settings['alignment'] = $settings['alignment'] ?? 'left';
-		echo '[button title="' . esc_attr( $settings['title'] ) . '" text="' . esc_attr( $settings['text'] ) . '" text_hover="' . esc_attr( $settings['text_hover'] ) . '" button_hover_style="' . esc_attr( $settings['button_hover_style'] ) . '" button_bg_style="' . esc_attr( $settings['button_bg_style'] ) . '" link_display_style="' . esc_attr( $settings['link_display_style'] ) . '" url="' . esc_attr( $settings['url']['url'] ) . '" new_tab="' . esc_attr( $settings['url']['is_external'] ) . '" size="' . esc_attr( $settings['size'] ) . '" alignment="' . esc_attr( $settings['alignment'] ) . '" position="' . esc_attr( $settings['position'] ) . '" button_display="' . esc_attr( $settings['button_display'] ) . '" button_icon="' . esc_attr( $button_icon ) . '" button_icon_position="' . esc_attr( $settings['button_icon_position'] ) . '" button_text_color="' . esc_attr( $settings['button_text_color'] ) . '" button_text_hover_color="' . esc_attr( $settings['button_text_hover_color'] ) . '" button_border_color="' . esc_attr( $settings['button_border_color'] ) . '" button_border_hover_color="' . esc_attr( $settings['button_border_hover_color'] ) . '" button_bg_color="' . esc_attr( $settings['button_bg_color'] ) . '" button_bg_hover_color="' . esc_attr( $settings['button_bg_hover_color'] ) . '" button_border_radius="' . esc_attr( $settings['button_border_radius'] ) . '" button_border_width="' . esc_attr( $settings['button_border_width'] ) . '" elementor="elementor"]';
-
-	}
-
 	protected function content_template() {
 		?>
 		<#

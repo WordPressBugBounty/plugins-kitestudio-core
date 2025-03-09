@@ -257,34 +257,6 @@ class Kite_Icon_Box_Square_Widget extends \Elementor\Widget_Base {
 		return false;
 	}
 
-	/**
-	 * Render shortcode widget as plain content.
-	 *
-	 * Override the default behavior by printing the shortcode instead of rendering it.
-	 *
-	 * @since 1.0.0
-	 * @access public
-	 */
-	public function render_plain_content() {
-		// In plain mode, render without shortcode
-		$settings = $this->get_settings_for_display();
-
-		// Check if its already migrated
-		$migrated = isset( $settings['__fa4_migrated']['new_icon'] );
-		// Check if its a new widget without previously selected icon using the old Icon control
-		$is_new = empty( $settings['icon'] );
-		if ( $is_new || $migrated ) {
-			$icon = $settings['new_icon']['library'] == 'svg' ? '' : $settings['new_icon']['value'];
-		} elseif ( isset( $settings['icon']['value'] ) ) {
-			$icon = $settings['icon']['library'] == 'svg' ? '' : $settings['icon']['value'];
-		} else {
-			$icon = $settings['icon'];
-		}
-
-		echo '[iconbox_rectangle title="' . esc_attr( $settings['title'] ) . '" title_color="' . esc_attr( $settings['title_color'] ) . '" icon="' . esc_attr( $icon ) . '" icon_color="' . esc_attr( $settings['icon_color'] ) . '" icon_border_color="' . esc_attr( $settings['icon_border_color'] ) . '" icon_background_fill="' . esc_attr( $settings['icon_background_fill'] ) . '" url="' . esc_attr( $settings['url'] ) . '" elementor_link_title="' . esc_attr( $settings['elementor_link_title'] ) . '" whole_box_link="' . esc_attr( $settings['whole_box_link'] ) . '" content_text="' . esc_attr( $settings['content_text'] ) . '" content_color="' . esc_attr( $settings['content_color'] ) . '"]';
-
-	}
-
 	protected function content_template() {
 
 	}

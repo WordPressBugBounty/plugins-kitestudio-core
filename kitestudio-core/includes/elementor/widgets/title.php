@@ -360,33 +360,6 @@ class Kite_Custom_Title_Widget extends \Elementor\Widget_Base {
 		return false;
 	}
 
-	/**
-	 * Render shortcode widget as plain content.
-	 *
-	 * Override the default behavior by printing the shortcode instead of rendering it.
-	 *
-	 * @since 1.0.0
-	 * @access public
-	 */
-	public function render_plain_content() {
-		// In plain mode, render without shortcode
-		$settings = $this->get_settings_for_display();
-
-		// Check if its already migrated
-		$migrated = isset( $settings['__fa4_migrated']['new_icon'] );
-		// Check if its a new widget without previously selected icon using the old Icon control
-		$is_new = empty( $settings['icon'] );
-		if ( $is_new || $migrated ) {
-			$icon = $settings['new_icon']['library'] == 'svg' ? '' : $settings['new_icon']['value'];
-		} elseif ( isset( $settings['icon']['value'] ) ) {
-			$icon = $settings['icon']['library'] == 'svg' ? '' : $settings['icon']['value'];
-		} else {
-			$icon = $settings['icon'];
-		}
-
-		echo '[custom_title title="' . esc_attr( $settings['title'] ) . '" title_fontsize="' . esc_attr( $settings['title_fontsize'] ) . '" title_color="' . esc_attr( $settings['title_color'] ) . '" hoverline_color="' . esc_attr( $settings['hoverline_color'] ) . '" title_background_style="' . esc_attr( $settings['title_background_style'] ) . '" bg_title="' . esc_attr( $settings['bg_title'] ) . '" bg_title_font_size="' . esc_attr( $settings['bg_title_font_size'] ) . '" bg_title_color="' . esc_attr( $settings['bg_title_color'] ) . '" bg_icon_color="' . esc_attr( $settings['bg_icon_color'] ) . '" icon="' . esc_attr( $icon ) . '" shape_fill_color="' . esc_attr( $settings['shape_fill_color'] ) . '" shape_border_color="' . esc_attr( $settings['shape_border_color'] ) . '" style="' . esc_attr( $settings['style'] ) . '" elementor="elementor"]';
-	}
-
 	protected function content_template() {
 
 	}

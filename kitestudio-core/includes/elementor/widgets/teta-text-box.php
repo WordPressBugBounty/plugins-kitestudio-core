@@ -285,20 +285,6 @@ class Kite_Teta_TextBox_Widget extends \Elementor\Widget_Base {
 		return false;
 	}
 
-	/**
-	 * Render shortcode widget as plain content.
-	 *
-	 * Override the default behavior by printing the shortcode instead of rendering it.
-	 *
-	 * @since 1.0.0
-	 * @access public
-	 */
-	public function render_plain_content() {
-		// In plain mode, render without shortcode
-		$settings = $this->get_settings_for_display();
-		echo '[textbox content_align="' . esc_attr( $settings['content_align'] ) . '" custom_color_check="' . esc_attr( $settings['custom_color_check'] ) . '" typing_animation_check="' . esc_attr( $settings['typing_animation_check'] ) . '" type_speed="' . esc_attr( $settings['type_speed'] ) . '" loop_animation_check="' . esc_attr( $settings['loop_animation_check'] ) . '" text_content_color="' . esc_attr( $settings['text_content_color'] ) . '" content_fontsize="custom"]' . esc_attr( $settings['content'] ) . '[/textbox]';
-	}
-
 	protected function content_template() {
 
 	}

@@ -1404,19 +1404,7 @@ class Search extends Widget_Base {
 	public function is_reload_preview_required() {
 		return false;
 	}
-
-	/**
-	 * Render shortcode widget as plain content.
-	 *
-	 * Override the default behavior by printing the shortcode instead of rendering it.
-	 *
-	 * @since 1.0.0
-	 * @access public
-	 */
-	public function render_plain_content() {
-
-	}
-
+	
 	protected function content_template() {
 	}
 }

@@ -234,26 +234,6 @@ class Kite_Animated_Text_Widget extends \Elementor\Widget_Base {
 		return false;
 	}
 
-	/**
-	 * Render shortcode widget as plain content.
-	 *
-	 * Override the default behavior by printing the shortcode instead of rendering it.
-	 *
-	 * @since 1.0.0
-	 * @access public
-	 */
-	public function render_plain_content() {
-		// In plain mode, render without shortcode
-		$settings = $this->get_settings_for_display();
-		if ( $settings['animatedtext_style'] == 'with_image' ) {
-			$image = 'style="with_image" image_url="' . esc_attr( $settings['image_url']['id'] ) . '" title_front_color="' . esc_attr( $settings['title_front_color'] ) . '"';
-		} else {
-			$image = 'animatedtext_style="text_only"';
-		}
-		echo '[animatedtext title="' . esc_attr( $settings['title'] ) . '" ' . esc_html( $image ) . ' title_back_color="' . esc_attr( $settings['title_back_color'] ) . '" animatedtext_font_size="' . esc_attr( $settings['animatedtext_font_size'] ) . '" animatedtext_speed="' . esc_attr( $settings['animatedtext_speed'] ) . '"]';
-
-	}
-
 	protected function content_template() {
 
 	}

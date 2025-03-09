@@ -415,26 +415,6 @@ class Kite_Contact_Form_7_Widget extends \Elementor\Widget_Base {
 		return false;
 	}
 
-	/**
-	 * Render shortcode widget as plain content.
-	 *
-	 * Override the default behavior by printing the shortcode instead of rendering it.
-	 *
-	 * @since 1.0.0
-	 * @access public
-	 */
-	public function render_plain_content() {
-		// In plain mode, render without shortcode
-		$settings = $this->get_settings_for_display();
-		if ( empty( $settings['form_id'] ) ) {
-			return;
-		}
-		$classes    = array( $settings['form_color_style'], $settings['form_width_style'], $settings['form_style'], $settings['button_style'], $settings['form_align'] );
-		$html_class = implode( ' ', $classes );
-		echo '[contact-form-7 id="' . esc_attr( $settings['form_id'] ) . '" html_class="' . esc_attr( $html_class ) . '"]';
-
-	}
-
 	protected function content_template() {
 
 	}

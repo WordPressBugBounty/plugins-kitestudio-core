@@ -345,25 +345,6 @@ class Kite_EmbedVideo_Widget extends \Elementor\Widget_Base {
 		return false;
 	}
 
-	/**
-	 * Render shortcode widget as plain content.
-	 *
-	 * Override the default behavior by printing the shortcode instead of rendering it.
-	 *
-	 * @since 1.0.0
-	 * @access public
-	 */
-	public function render_plain_content() {
-		// In plain mode, render without shortcode
-		$settings = $this->get_settings_for_display();
-
-		$video_poster_image     = ! empty( $settings['video_poster_image'] ) ? $settings['video_poster_image']['id'] : '';
-		$video_background_image = ! empty( $settings['video_background_image'] ) ? $settings['video_background_image']['id'] : '';
-
-		echo '[embed_video video_display_type="' . esc_attr( $settings['video_display_type'] ) . '" alignment="' . esc_attr( $settings['alignment'] ) . '" el_aspect="' . esc_attr( $settings['el_aspect'] ) . '" video_autoplay="' . esc_attr( $settings['video_autoplay'] ) . '" loop="' . esc_attr( $settings['loop'] ) . '" mejs_controls="' . esc_attr( $settings['mejs_controls'] ) . '" video_poster_image="' . esc_attr( $video_poster_image ) . '" video_background_image="' . esc_attr( $video_background_image ) . '" video_webm="' . esc_attr( $settings['video_webm'] ) . '" video_mp4="' . esc_attr( $settings['video_mp4'] ) . '" video_ogv="' . esc_attr( $settings['video_ogv'] ) . '" video_play_button_color="' . esc_attr( $settings['video_play_button_color'] ) . '" video_vimeo_id="' . esc_attr( $settings['video_vimeo_id'] ) . '" video_youtube_id="' . esc_attr( $settings['video_youtube_id'] ) . '"]';
-
-	}
-
 	protected function content_template() {
 
 	}

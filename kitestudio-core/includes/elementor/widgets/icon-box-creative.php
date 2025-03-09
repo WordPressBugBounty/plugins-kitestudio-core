@@ -313,35 +313,7 @@ class Kite_Icon_Box_Creative_Widget extends \Elementor\Widget_Base {
 	public function is_reload_preview_required() {
 		return false;
 	}
-
-	/**
-	 * Render shortcode widget as plain content.
-	 *
-	 * Override the default behavior by printing the shortcode instead of rendering it.
-	 *
-	 * @since 1.0.0
-	 * @access public
-	 */
-	public function render_plain_content() {
-		// In plain mode, render without shortcode
-		$settings = $this->get_settings_for_display();
-
-		// Check if its already migrated
-		$migrated = isset( $settings['__fa4_migrated']['new_icon'] );
-		// Check if its a new widget without previously selected icon using the old Icon control
-		$is_new = empty( $settings['icon'] );
-		if ( $is_new || $migrated ) {
-			$icon = $settings['new_icon']['library'] == 'svg' ? '' : $settings['new_icon']['value'];
-		} elseif ( isset( $settings['icon']['value'] ) ) {
-			$icon = $settings['icon']['library'] == 'svg' ? '' : $settings['icon']['value'];
-		} else {
-			$icon = $settings['icon'];
-		}
-
-		echo '[iconbox_custom title="' . esc_attr( $settings['title'] ) . '" title_color="' . esc_attr( $settings['title_color'] ) . '" icon="' . esc_attr( $icon ) . '" icon_color="' . esc_attr( $settings['icon_color'] ) . '" url="' . esc_attr( $settings['url']['url'] ) . '" new_tab="' . esc_attr( $settings['url']['is_external'] ) . '" elementor_link_title="' . esc_attr( $settings['elementor_link_title'] ) . '" whole_box_link="' . esc_attr( $settings['whole_box_link'] ) . '" content_text="' . esc_attr( $settings['content_text'] ) . '" border_color="' . esc_attr( $settings['border_color'] ) . '" bg_color="' . esc_attr( $settings['bg_color'] ) . '" bg_hover_color="' . esc_attr( $settings['bg_hover_color'] ) . '" hover_style="' . esc_attr( $settings['hover_style'] ) . '" image="' . esc_attr( $settings['image']['id'] ) . '"]';
-
-	}
-
+	
 	protected function content_template() {
 
 	}

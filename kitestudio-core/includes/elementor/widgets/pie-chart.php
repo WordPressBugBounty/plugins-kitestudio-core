@@ -273,34 +273,7 @@ class Kite_Pie_Chart_Widget extends \Elementor\Widget_Base {
 	public function is_reload_preview_required() {
 		return false;
 	}
-
-	/**
-	 * Render shortcode widget as plain content.
-	 *
-	 * Override the default behavior by printing the shortcode instead of rendering it.
-	 *
-	 * @since 1.0.0
-	 * @access public
-	 */
-	public function render_plain_content() {
-		// In plain mode, render without shortcode
-		$settings = $this->get_settings_for_display();
-
-		// Check if its already migrated
-		$migrated = isset( $settings['__fa4_migrated']['piechart_new_icon'] );
-		// Check if its a new widget without previously selected icon using the old Icon control
-		$is_new = empty( $settings['piechart_icon'] );
-		if ( $is_new || $migrated ) {
-			$piechart_icon = $settings['piechart_new_icon']['library'] == 'svg' ? '' : $settings['piechart_new_icon']['value'];
-		} elseif ( isset( $settings['piechart_icon']['value'] ) ) {
-			$piechart_icon = $settings['piechart_icon']['library'] == 'svg' ? '' : $settings['piechart_icon']['value'];
-		} else {
-			$piechart_icon = $settings['piechart_icon'];
-		}
-
-		echo '[piechart title="' . esc_attr( $settings['title'] ) . '" title_color="' . esc_attr( $settings['title_color'] ) . '" subtitle="' . esc_attr( $settings['subtitle'] ) . '" subtitle_color="' . esc_attr( $settings['subtitle_color'] ) . '" piechart_percent="' . esc_attr( $settings['piechart_percent'] ) . '" piechart_percent_display="' . esc_attr( $settings['piechart_percent_display'] ) . '" piechart_color="' . esc_attr( $settings['piechart_color'] ) . '" piechart_color_preset="custom" main_color="' . esc_attr( $settings['main_color'] ) . '" piechart_icon="' . esc_attr( $piechart_icon ) . '" piechart_animation="' . esc_attr( $settings['piechart_animation'] ) . '" responsive_animation="' . esc_attr( $settings['responsive_animation'] ) . '"]';
-	}
-
+	
 	protected function content_template() {
 
 	}

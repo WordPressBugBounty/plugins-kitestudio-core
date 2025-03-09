@@ -965,22 +965,6 @@ class Kite_Woocommerce_Products_Widget extends \Elementor\Widget_Base {
 		return true;
 	}
 
-	/**
-	 * Render shortcode widget as plain content.
-	 *
-	 * Override the default behavior by printing the shortcode instead of rendering it.
-	 *
-	 * @since 1.0.0
-	 * @access public
-	 */
-	public function render_plain_content() {
-		// In plain mode, render without shortcode
-		$settings = $this->get_settings_for_display();
-
-		echo $this->kite_generate_shortcode( $settings );
-
-	}
-
 	public function kite_generate_shortcode( $settings, $return_args = false ) {
 		if ( is_array( $settings['category'] ) ) {
 			$category = implode( ',', $settings['category'] );

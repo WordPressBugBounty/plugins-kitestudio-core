@@ -424,21 +424,6 @@ class Kite_Instagram_Feed_Widget extends \Elementor\Widget_Base {
 		return true;
 	}
 
-	/**
-	 * Render shortcode widget as plain content.
-	 *
-	 * Override the default behavior by printing the shortcode instead of rendering it.
-	 *
-	 * @since 1.0.0
-	 * @access public
-	 */
-	public function render_plain_content() {
-		// In plain mode, render without shortcode
-		$settings = $this->get_settings_for_display();
-		$column = $settings['column'] ?? 1;
-		echo '[kt_instagram method="' . esc_attr( $settings['method'] ) . '" user="' . esc_attr( $settings['user'] ) . '" posts_count="' . esc_attr( $settings['posts_count']['size'] ) . '" column="' . esc_attr( $column ) . '" image_resolution="' . esc_attr( $settings['image_resolution'] ) . '" carousel="' . esc_attr( $settings['carousel'] ) . '" naxt_prev_btn="' . esc_attr( $settings['naxt_prev_btn'] ) . '" nav_style="' . esc_attr( $settings['nav_style'] ) . '" custom_hover_color="' . esc_attr( $settings['custom_hover_color'] ) . '" hover_color="custom" like="' . esc_attr( $settings['like'] ) . '" comment="' . esc_attr( $settings['comment'] ) . '" eqaul_height_width="' . esc_attr( $settings['eqaul_height_width'] ) . '" enterance_animation="' . esc_attr( $settings['enterance_animation'] ) . '" responsive_animation="' . esc_attr( $settings['responsive_animation'] ) . '"]';
-	}
-
 	protected function content_template() {
 
 	}

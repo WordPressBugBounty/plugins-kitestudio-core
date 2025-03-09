@@ -151,20 +151,6 @@ class Kite_Product_Page_Widget extends \Elementor\Widget_Base {
 		return false;
 	}
 
-	/**
-	 * Render shortcode widget as plain content.
-	 *
-	 * Override the default behavior by printing the shortcode instead of rendering it.
-	 *
-	 * @since 1.0.0
-	 * @access public
-	 */
-	public function render_plain_content() {
-		// In plain mode, render without shortcode
-		$settings = $this->get_settings_for_display();
-		echo '[product_page product_id="' . esc_attr( $settings['product_id'] ) . '"]';
-	}
-
 	protected function content_template() {
 
 	}
